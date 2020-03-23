@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <title>Be(e) Conni</title>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="xpStyle.css" />
+    <base target="_self" />
+
+<script type="text/javascript">
+    var language = 'de';
+    var videoNr = 1;
+    var eb = ["https://mega.nz/embed#!",
+        '2ZM23KIK!3C3S1jixcvqeL9afIWRcBoAuUalduUx4Cjth8R9aZtU',
+        'PFEyXaRA!KTUhyZcTmsGMHbbAl19yzGEV0ftBfnezcfC32-dW6mc',
+        '3EVwgCyA!sV5JkQEaqir7REh_aN6zGBLsijsmMK3edqiAyNQ1_MI',
+        'eJFEjIoL!kyi1Q-OIf0Pw2dchb14PqEVvd3DdDD1jMfzzrnvrRRY',
+        'XBdCXKjZ!O_pdIr0k4gJ2BJYls81NF_bckpY_S4mgJTf8o6JwXj0',
+        'bZVgFSZI!gcrE0or15ltzNTz-bd70Vgsukegk1ZkXC7qdBdBoYtQ',
+        'rIFixYpS!wDmP88iPg96-7i3kCnObr32QhKoE5F4sTNu3NAEenIo',
+        'qFcWFCpb!JrAyFc9efIjIGh5lWL2mACVnFnrqD3kE-yoRa3cP3Bg',
+        'HYUi1aDQ!eVryOSE4OwAvhszOEtmkFThHbKMIh2ZTFMOxYWvML4Y',
+        'yQM0wIwD!SUOBAMoREx-2fqGeGQMIVTXdIPrlqSA5Y0gv1-jMxpE',
+        'DUs2gChL!G3-d4KkeNBAdYq29GJJ0aLH8Wes1yNJ8tQ4-ph28scE',
+        'aQk2nAjC!5DMTRIgneKJu1vSgX1bTXIlvZulG8wr10pxjGMXsgQ0',
+        'mc1UVKaI!dXcZjOA6NzD74kuRBOxVvvup8NmXTfyAbzYAuzFmBHc',
+        'XMli3IQL!0greh9GLFqx4DXQDbmsORM539lJ57tngO6q0tOQI8wk',
+        'GQ82hYjD!QolEiTL-4A8gsudL7ua7vyAnOklxfAeMWeggi4o-niI',
+        'nNsAxQJD!uQ0W45j-Jm946Bn3vIe6tQS1fzJOwcCZeB5wuQCcxhg',
+        'Sd8mwACJ!CFUCUdAlP6Rx4zxwHaFLHlJa_KNCGPu1glrQR8vsMMU',
+        'iUk2HAwL!ZDCgroF2fYiNGBOYoJFzGU3HNKFC8gtFSfvfZpmaRsk',
+        '6JkSRazB!ZPIyVkM12CGJI8ulBONGtei5uwDQ7Ghgc5wyWGYACu0',
+        'zV1UVAyL!lN4UMC3tdjp5DD2eFJ3ZfCmTnIoJE1UHn0k8t5ySKsE',
+        'vZ80nC6Q!Vhinv1qD6TIzzSXZ6ALICiOloTwvtOAakBNIkLfYEUM',
+        'PNsCVC4S!-GCX2PclDZMA82zLTUVy76g9XgyQfI4tSuY-pzP68xs',
+        'yc9w0SZb!9hmVDAOwxljRNwd_-CtGmI6JaBANYhA0wkJFKH4BQfM',
+        'uY0EyKIZ!xI8ten9CTBg0vdAWWeoPti48EgUmq1j6vae1SZ8arjA',
+        'Hc0CxaIL!76nmxQJDc0-WIaR8bvGsniLUBPZ65h-rhw17Zbgswso',
+        'aJkGVaaJ!R0uAJ1zbw-9h9s_jbkrN04t1fqRlZPltG6_4z7APsBs',//--
+        'HYkCVaDZ!f4nC96c6grP8fAl6h0fGmC_AI8Brn1lxlHFC2dobQiw',//--
+        'Wd1QhQZT!IAFSrju_8n02P7NEp0tpfPNA3S_om51ou3lOoa7yRi4',
+        'rdtS1YiK!CleNugRVqPbWBLKTsoJzf4Uf3NSUjXG9PQSPiWrvkfE',
+        'uBlmzSAb!ABcDBfYoUGdLwjjwwRQZAVmL9UJMoe9VYWcNWdB6D3U',
+        'jBt2yaiD!81AjRhaixhvxVO4gVpxAWVfQREYItRsMv59wBA6dICs',
+        'aclEAKrb!Z-YM_6tbguhDYoBKBYNNfdy7CJRUisQcfvJUEIlcFwY',
+        'mE8QHKQC!eSFGtcWLNfO8qMXsu13Pv9H4DHBVRgy4qN2cQ11LmO8',
+        'PEsgyYwb!Pprf96loCfUsv9-KD0vxvG0nn4ZB1mfRQ8O4BUEW1Eg',
+        'WQ90DISA!1KJW-A4nDYkUYoit7RqOJXCLI-9p62F4sKQAHBPnToU',
+        'aMtGgY7S!gBxjdZzKxanRYWNTk2Y9CuqXnrsodqqs3d_LERsfOA8',
+        '3ItChIRJ!fLLZg4RmHkCp7rWoDjwXQ2cjhmKPe-pnwO8rvNOxwVE',
+        'OF9SSYTZ!0Nf7gSsajmE3xdz-vxLQu42kePaX_mPBvW9oZMRCaaQ',//--
+        'jdlkVYKb!cWO_1UaAxeZoF8oCVM-WusQ_1X7mkZfMpSg8Y2KIaN0',
+        'md9A0AJT!Vpn7fxqpBMrHWkvDj1sVG3k8vLTdaXe8mCcpQsbGt5s',
+        'yckERAzQ!_XNNW1y8o7GCIOSy8tKMXfVO0XybZouRrEOfpe8HJC8',
+        'aRsmjSaZ!g627WAOX9uOMgsQSeIhCqlZUowwgya7VMqYLQcaEXto',
+        'bJ0kWASS!jIqxFz8cNYmUAcbs50baaluLzBgwldTfEduEr2YU2SQ',
+        'nV9SWIAR!ebSzIYroEMAdphy53qeHBMc3fTmU47s_2SW7CnqW_J0',
+        'TBlUBYLa!xgwK5LmqjdJBzbRxdD8_Ngzzeb2u-Oe-Kfsgn2guvT0',
+        'CEtm2KjR!7leUstC57ooOvrU5AdGoilJz0WShq21R4GlW9_nwZog',
+        'HF9GTSDK!PdYvLH_Xnmhfi5FqhGCxHNT2geZvohubGOboqwXXLnY',//--
+        'iclUWKAR!woA9MuZBK61Sr2nYrQzOXNaSUaG3fraFWh2vytSpvpE',
+        'yIliDIBJ!OwLoAgIHEsCG-Z4c71v8W2Fel2iLEyXKF7WVVuE0fxs',
+        'GN9AhKpD!eGaityAa94gJn3PoafDKnkr1hckVe5rWMEb6_R8g3hI',
+        '2E0w0CgC!sjATK04QYNMi4Uzg6piL25xWXAYk434dIRE3Pgxq18E',
+        '3ItCXQ6R!J49SZXQ6ElRWa8C1pP8PXwn6cq4b1PgnJb3G4ry2Ruo',
+        ''];
+function showVideo(videoUrl) {
+    var iframe = document.getElementById("videoframe");
+    var article = document.getElementById("myvideo");
+    var title = document.getElementById("mytitle");
+    var flag = document.getElementById("myflag");
+    if (videoUrl == 9999){
+        if (language == "de") {
+            title.classList.remove('de');
+            flag.classList.remove('hu');
+            title.classList.add('hu');
+            flag.classList.add('de');
+            flag.innerHTML = "DE";
+            videoNr += 26;
+            language = 'hu';
+        } else {
+            title.classList.remove('hu');
+            flag.classList.remove('de');
+            title.classList.add('de');
+            flag.classList.add('hu');
+            flag.innerHTML = "HU";
+            videoNr -= 26;
+            language = 'de';
+        }
+    } else {
+        if (language == "hu") {
+            videoNr = videoUrl + 26;
+        } else {
+            videoNr = videoUrl;
+        }
+    }
+    //alert(videoNr);
+    iframe.src = eb[0]+eb[videoNr];
+    article.removeChild(iframe);
+    article.removeChild(flag);
+    article.appendChild(iframe);
+    article.appendChild(flag);
+}
+</script>
+</head>
+<body>
+
+    <h6><a href="index.html" target="_self">b6ck</a></h6>
+
+<header>
+    <h2>Be(e) Conni</h2>
+</header>
+
+<section>
+    <nav>
+        <ul>
+            <li><a href="#videoframe" onclick='showVideo(1)'>
+                01 a költözés</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(2)'>
+                02 a cica</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(3)'>
+                03 a bicikli</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(4)'>
+                04 a sátorozás</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(5)'>
+                05 a sütés</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(6)'>
+                06 az óvoda</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(7)'>
+                07 a csikóhal</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(8)'>
+                08 az első repülőút</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(9)'>
+                09 a tanya</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(10)'>
+                10 a táncóra</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(11)'>
+                11 a születésnap</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(12)'>
+                12 az óra</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(13)'>
+                13 a fogorvos</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(14)'>
+                14 az állatkert</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(15)'>
+                15 a húsvéti nyúl</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(16)'>
+                16 a lámpás felvonulás</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(17)'>
+                17 a lovaglás</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(18)'>
+                18 a pizzasütés</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(19)'>
+                19 a zene</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(20)'>
+                20 a síelés</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(21)'>
+                21 a strandon</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(22)'>
+                22 a futbal</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(23)'>
+                23 a hegyekben</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(24)'>
+                24 Conni eltéved</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(25)'>
+                25 a könyvek</a>
+            </li>
+            <li><a href="#videoframe" onclick='showVideo(26)'>
+                26 a gyerekorvos</a>
+            </li>
+            <li><p><a href="conni2.html">
+                Conni 27-52</a></p>
+            </li>
+        </ul>
+    </nav>
+  
+    <article id="myvideo">
+        <header id="mytitle" class="de"> </header>
+        <iframe id="videoframe" width="100%" height="600" frameborder="0" 
+                src="https://mega.nz/embed#!2ZM23KIK!3C3S1jixcvqeL9afIWRcBoAuUalduUx4Cjth8R9aZtU" allowfullscreen>
+        </iframe>
+        <footer id="myflag" class="hu" onclick='showVideo(9999)'>HU</footer>
+    </article>
+</section>
+
+<details>
+    <summary>
+        Inhalt
+    </summary>
+
+    <f3>1. Conni zieht um</f3>
+    <p>
+    Conni ist traurig. Sie will nicht umziehen und sich von ihrer Freundin Julia trennen. Als Papa und Jakob in der
+    alten Wohnung ein Kistenrennen veranstalten, will Conni aber doch mitmachen und findet Spaß am Packen. Sie darf
+    sich ihre neue Wandfarbe aussuchen und hilft beim Streichen. In der Nacht vor dem Umzug ist Conni sehr aufgeregt.
+    Und schon am Umzugstag erwartet Conni eine Überraschung. Auf dem Spielplatz in der Nähe des neuen Hauses trifft
+    sie Anna, die ihre neue Freundin wird und sogar in den gleichen Kindergarten geht wie Conni. Welch eine Freude!
+    (Text: KiKA)
+    </p>
+
+    <f3>2. Conni bekommt eine Katze</f3>
+    <p>
+    Conni findet im Garten einen kleinen Kater, der sich prompt ins Haus schleicht und dort versteckt. Jetzt kann 
+    sie Kater Mau, wie sie das Kätzchen nennt, natürlich nicht wieder hergeben. Als Mama und Papa zustimmen, dass 
+    er bleiben darf, ist Conni überglücklich. Sie lernt nun eine ganze Menge darüber, was so ein kleiner Kater 
+    alles braucht. Conni möchte gern den Katzenbaum selbst bauen und spannt dafür Opa ein. Connis Einsatz rund um 
+    Mau wird belohnt; am Ende eines langen Tages lässt sich Mau sogar von Conni kraulen und schnurrt wohlig und 
+    zufrieden. 
+    (Text: KiKA)
+    </p>
+
+    <f3>3. Conni lernt Rad fahren</f3>
+    <p>
+    Conni wünscht sich ein eigenes Fahrrad, denn mit ihrem Roller kann sie Anna auf ihrem Rad nie einholen. Die 
+    Freude ist groß, als sie endlich ein Rad geschenkt bekommt. Doch nun muss Conni erst einmal lernen, damit zu 
+    fahren. Mit den Stützrädern ihrer Freundin klappt es zunächst ganz schnell. Conni will jedoch so fahren wie 
+    all ihre Freunde- ohne Hilfen. Das ist viel schwieriger als gedacht. Conni übt unermüdlich, sie gibt nicht 
+    auf und am Ende gewinnt sie sogar beim Riesenslalom auf dem Spielplatz.
+    (Text: KiKA)
+    </p>
+
+    <f3>4. Conni geht zelten</f3>
+    <p>
+    Conni ist voller Vorfreude. Zusammen mit ihren Eltern und ihrem Freund Simon bricht sie auf zu ihrem ersten 
+    Zelt-Urlaub. Ein Zeltplatz am Meer und einen Schlafplatz neben dem besten Freund, das ist genau nach Connis 
+    Wunsch. Doch in der ersten Nacht beginnt es zu regnen und auf einmal steht das ganze Zelt unter Wasser. 
+    Zum Glück haben Mama und Papa eine Idee, was man trotz Regen machen kann. Und Conni und Simon haben eine 
+    lustige Idee, wie sie sich im Urlaub prima entspannen können.
+    (Text: KiKA)
+    </p>
+
+    <f3>5. Conni lernt backen</f3>
+    <p>
+    Conni und Jakob haben Heißhunger auf Plätzchen. Nachdem die beiden aber nirgendwo im Haus welche gefunden haben, 
+    beschließt Conni Plätzchen selbst zu backen.Da Mama gerade einkauft und Oma schläft, könnten sie die beiden mit 
+    ihren frisch gebackenen Plätzchen überraschen, so der Plan. Sofort machen sich Conni und Jakob an die Arbeit. 
+    Doch schnell müssen sie feststellen, dass Plätzchen backen gar nicht so einfach ist, und leider die Küche im 
+    Chaos versinkt. Erschreckt rufen sie ganz laut nach Oma, die hilft das Chaos zu beseitigen und schafft es, 
+    die Backaktion mit den Enkeln erfolgreich zu beenden.
+    (Text: KiKA)
+    </p>
+
+    <f3>6. Conni schläft im Kindergarten</f3>
+    <p>
+    Das erste Mal nicht zu Hause, sondern im Kindergarten schlafen? Conni kribbelt es im Bauch, wenn sie daran 
+    denkt. Doch dann wird es ein ganz besonderes Erlebnis mit einer abenteuerlichen Nachtwanderung, bei der sie 
+    eine Igelfamilie und viele Fledermäuse beobacht. Danach gibt’s am Lagerfeuer für alle Kinder leckere 
+    Würstchen und Stockbrot. 
+    Am schönsten ist es aber zwischen ihren besten Freunden Simon und Anna einzuschlafen.
+    (Text: KiKA)
+    </p>
+
+    <f3>7. Conni macht das Seepferdchen</f3>
+    <p>
+    In der Badewanne ist Conni die beste Tiefseetaucherin, aber wie ist es eigentlich in einem großen Schwimmbad? 
+    Dazu muss man schwimmen können. Das kann man am besten in einem Schwimmkurs lernen. Zusammen mit ihrem Freund 
+    Simon besucht Conni daraufhin einen Schwimmkurs, wo sie außer Schwimmen auch Tauchen lernt. Am Ende schaffen 
+    Conni, Simon und alle anderen Kinder das Seepferdchenabzeichen und Papa staunt nicht schlecht, als Conni es 
+    ihm stolz auf ihrem Badeanzug präsentiert.
+    (Text: KiKA)
+    </p>
+
+    <f3>8. Connis erster Flug</f3>
+    <p>
+    Check In, Sicherheitskontrollen und auch die Koffer werden einfach von einem Band wegtransportiert? Was da 
+    alles am Flughafen passiert, bis man endlich im Flugzeug sitzt, ist für Conni schon sehr aufregend, neu und 
+    ungewohnt. Dann endlich geht’s los – das Flugzeug hebt ab und die Landschaft unter ihnen wird immer kleiner. 
+    Fliegen ist einfach super und die Stewardessen sind wirklich sehr freundlich.
+    (Text: KiKA)
+    </p>
+
+    <f3>9. Conni auf dem Bauernhof</f3>
+    <p>
+    Conni fährt zusammen mit Mama zu Freunden auf den Bauernhof. Dort gibt es Schweine, Hühner, Enten und eine 
+    Menge anderer Tiere zu entdecken. Conni lernt sogar eine Kuh zu melken. Und dann gibt es da noch herrliche 
+    Matschpfützen, in denen man mit Gummistiefeln rumstapfen kann. Das alles macht Conni und ihrer neuen Freundin 
+    Annika einen Riesenspaß und beide Mädchen sind sehr traurig, dass die Zeit so schnell vorbeigeht.
+    (Text: KiKA)
+    </p>
+
+    <f3>10. Conni tanzt</f3>
+    <p>
+    Conni möchte auch gerne in den Ballettunterricht, wie ihr Freund Simon. Zum Glück unterstützt Mama ihren 
+    Wunsch und schon bald darf Conni anfangen. Steffi, die Ballettlehrerin, ist sehr nett und zunächst ist es 
+    ganz einfach, aber dann werden die Übungen immer schwieriger. Fast gibt Conni auf, aber sie will ja Papa 
+    zum Geburtstag eine eigene kleine Aufführung schenken. Ein guter Grund, sich nicht entmutigen zu lassen 
+    und weiter zu üben. Am Ende gelingt es Conni, Papa mit ihrem eigenen Geburtstagstanz zu überraschen.
+    (Text: KiKA)
+    </p>
+
+    <f3>11. Conni hat Geburtstag</f3>
+    <p>
+    Bald hat Conni Geburtstag. Sie wird 5 Jahre! Conni ist schrecklich aufgeregt und sehnt den Tag herbei. Endlich 
+    ist es soweit: Mama, Papa und Jakob wecken sie mit einem Geburtstagslied, Kuchen, Kerzen und tollen Geschenken. 
+    Ihre Freunde im Kindergarten bereiten Conni einen großen Empfang, und das Geburtstagsfest, das Mama und Papa 
+    für Conni und ihre Gäste organisieren, macht allen einen Riesenspaß. Am liebsten würde Conni jeden Tag 
+    Geburtstag feiern.
+    (Text: KiKA)
+    </p>
+
+    <f3>12. Conni lernt die Uhrzeit</f3>
+    <p>
+    Conni muss um neun Uhr im Kindergarten sein, um zwei Uhr bei der Gymnastik und um vier Uhr bei ihrer Freundin 
+    Anna. Wie soll sie das alles im Kopf behalten? Also muss Conni die Uhr lernen. Ihre Oma unterstützt ihre 
+    Enkelin dabei. Und so turnt sich Conni durch die Zeit. Mit Omas Uhrgymnastik und einer selbstgebastelten Uhr 
+    fällt es Conni viel leichter, sich die Zeiten einzuprägen. Am Ende ist Conni richtig fit und ihre Eltern 
+    staunen nicht schlecht, was Conni an so einem Oma- Tag alles gelernt hat.
+    (Text: KiKA)
+    </p>
+
+    <f3>13. Conni geht zum Zahnarzt</f3>
+    <p>
+    Eigentlich will Conni überhaupt nicht zum Zahnarzt, sie hat schreckliche Angst, nachdem Lars ihr im 
+    Kindergarten erzählt hat, dass der Zahnarzt große Löcher in die Zähne bohrt. Alles Quatsch, stellt Conni 
+    fest 
+    – Frau Blume, die Zahnärztin ist unglaublich nett und es ist sogar richtig spannend, was man im 
+    Behandlungsraum alles entdecken und lernen kann.Da kann Conni ihrem Papa viel erzählen. Der hat 
+    auch bald einen Termin beim Zahnarzt und ist darüber gar nicht froh.
+    (Text: KiKA)
+    </p>
+
+    <f3>14. Conni geht in den Zoo</f3>
+    <p>
+    Conni ist ganz aufgeregt. Mit ihrer Kindergartengruppe macht sie einen Ausflug in den Zoo und soll sich Fragen 
+    zu einem bestimmten Tier ausdenken. Sie überlegt lange welches Tier sie wählen soll. Auch de anderen Kinder 
+    haben Fragen vorbereitet. So lernt Conni eine ganze Menge über Tiere, die sie noch gar nicht gut kannte und 
+    der Zoobesuch wird spannend und lehrreich zugleich für Conni und ihre Kindergartenfreunde.
+    (Text: KiKA)
+    </p>
+
+    <f3>15. Conni und der Osterhase</f3>
+    <p>
+    Eifrig helfen Conni und Jakob bei den Vorbereitungen für ein schönes Osterfest. Sie bemalen Ostereier, basteln 
+    Schmuck für den Osterstrauß und als besondere Überraschung hat Mama sich einen Kresse-Tisch ausgedacht. 
+    Gemeinsam säen sie die Kresse für einen Tisch, der aussieht wie ein Frühlingsbeet. Das muss Conni unbedingt 
+    Anna zeigen, doch vorher gehen sie alle zum riesigen Osterfeuer, um die Sonne auf die Erde zu locken und den 
+    Winter zu vertreiben. Und endlich ist der Ostersonntag da, Conni und Jakob suchen im Garten all die bunten 
+    Ostereier, die der Osterhase versteckt hat. Doch was ist das? Die Kinder staunen nicht schlecht, als sie 
+    in der Küche den bunten Frühlingstisch entdecken. Schläft da etwa der Osterhase im Kressebeet?
+    (Text: KiKA)
+    </p>
+
+    <f3>16. Conni und der Laternenumzug</f3>
+    <p>
+    Im Herbst basteln Conni und ihre Freunde gerne mit bunten Blättern und den Früchten von Bäumen und in einen 
+    ausgehöhlte Kürbisse stellen sie Kerzen Am meisten freut sich Conni auf den Laternenumzug im Kindergarten. 
+    Im Kindergarten macht Conni ihre eigene Laterne und dafür hat sie eine ganz besondere Idee.
+    (Text: KiKA)
+    </p>
+
+    <f3>17. Conni lernt reiten</f3>
+    <p>
+    Conni ist ganz aufgeregt: Sie darf mit Anna zum Reitunterricht. Das Pony hört auf den Namen Flecki, und Conni 
+    freundet sich schnell mit ihm an. Doch wie sitzt man gerade im Sattel, und wie stellt man die Füße in die 
+    Steigbügel? Geduldig erklärt ihr all dies ihre Reitlehrerin Silke. Und schon bald trabt Conni fröhlich auf 
+    ihrem Pony den anderen Ponys im Kreis hinterher. Was für ein Schreck für Conni, als Flecki einfach aus der 
+    Reihe tanzt. Reiten ist doch viel schwieriger als Conni sich dachte. Mit neuem Mut und weiteren Übungsstunden 
+    schafft Conni es schließlich sicher auf ihrem Pony zu sitzen und sogar zu traben. Nun kann sie reiten und 
+    stolz führt sie ihr Können in einem kleinen Schauturnier ihren Eltern vor.
+    (Text: KiKA)
+    </p>
+
+    <f3>18. Conni backt Pizza</f3>
+    <p>
+    Conni und Simon freuen sich, denn Simons Mutter lädt die beiden in eine Pizzeria ein. Die Enttäuschung ist groß, 
+    als sie vor dem geschlossenen Restaurant stehen. Damit mag sich Conni aber nicht abfinden und schlägt Simon vor, 
+    selbst eine tolle Pizza zu backen und ihre beiden Familien damit zu überraschen. Was für ein Glück, dass Connis 
+    Mama da ein bisschen mithilft, denn ganz so einfach, wie Conni dachte, ist Pizza backen nicht.
+    (Text: KiKA)
+    </p>
+
+    <f3>19. Conni macht Musik</f3>
+    <p>
+    Conni stibitzt die Küchenutensilien für ihr erstes Hauskonzert, doch Mama und Papa sind zunächst von Connis 
+    Konzert mit Topfdeckeln wenig begeistert. Dabei lernt Conni doch gerade im Kindergarten, dass man mit fast 
+    allen Dingen Musik machen kann. Man muss nur eine richtig gute Melodie erfinden! In ihrer Kindergartengruppe 
+    erfährt Conni, was ein Takt ist und wie Noten aussehen. Denn die Gruppe plant ein Musikkonzert für die Eltern. 
+    Conni wählt ein Tamburin, zeichnet ihre ersten Noten und übt unermüdlich für den Auftritt. Da staunen Connis 
+    Eltern und Jakob nicht schlecht, als die Kindergartengruppe ihr selbst einstudiertes Lied vorführt.
+    (Text: KiKA)
+    </p>
+
+    <f3>20. Conni fährt Ski</f3>
+    <p>
+    Winterurlaub in den Bergen ist besonders schön, wenn man auch Ski fahren kann. Und genau das will Conni lernen. 
+    In einem Skikindergarten lernt Conni nicht nur Tricks und Kniffe fürs Skifahren, sondern was noch viel besser 
+    ist, sie lernt eine neue Freundin kennen. Zusammen üben sie den Schneepflug und fahren als Bandwurm einen Berg 
+    hinunter.
+    Und in einem Slalom-Parcour als Abschlussübung beweisen Conni und Lena ihren Eltern wie toll sie schon Ski 
+    fahren können.
+    (Text: KiKA)
+    </p>
+
+    <f3>21. Conni am Strand</f3>
+    <p>
+    Sonne, Sommer, Strand und Meer. Urlaub ist einfach die schönste Jahreszeit, findet Conni. Es gibt so viel Neues 
+    zu entdecken: wozu dient ein Leuchtturm? Wie heißen die verschiedenen Muscheln am Strand? Was hat es mit Ebbe 
+    und Flut auf sich? Wie heißen all die Tiere, die im Meer leben? Und was macht eine kleine verirrte Robbe am 
+    Strand? Mama und Papa beantworten Conni geduldig alle Fragen und bauen gemeinsam die schönste Sandburg für ihre 
+    Muschenlprinzessin Conni.
+    (Text: KiKA)
+    </p>
+
+    <f3>22. Conni spielt Fußball</f3>
+    <p>
+    Mit Papa und Onkel Günther im Garten zu bolzen macht Spaß, aber richtig dribbeln und kicken können, wäre schon 
+    besser. Deshalb bitten Conni und Anna Onkel Günther, sie beim Kinderfußball anzumelden. Fußballtrainer Malzi 
+    freut sich über die Neuzugänge. Mit großer Begeisterung und Ausdauer trainieren die Freundinnen und fiebern 
+    schließlich ihrem 1. Turnier entgegen. Doch ausgerechnet am Tag des Turniers gießt es in Strömen … War jetzt 
+    alles umsonst oder findet sich noch eine Chance, ihr Können unter Beweis zu stellen? 
+    (Text: KiKA)
+    </p>
+
+    <f3>23. Conni in den Bergen</f3>
+    <p>
+    Wandern in den Bergen ist das Größte, findet Conni, wenn es nur nicht immer bergauf ginge. Doch zusammen mit 
+    einem Bergführer wird der Aufstieg zu einem echten Abenteuer: Neben rauschenden Bächen entdeckt Conni einen 
+    Bergsalamander, seltene Alpenveilchen und b sogar ein Murmeltier. In einer riesigen Höhle bestaunen Conni und 
+    Jakob die Tropfsteinsäulen. Und Conni erlebt noch mehr: Sie entdeckt einen Wasserfall und traut sich über eine 
+    Wackelbrücke in schwindelerregender Höhe. Müde von all den Erlebnissen schläft Conni nachts ausgezeichnet, 
+    mindestens genauso gut wie ein Murmeltier. 
+    (Text: KiKA)
+    </p>
+
+    <f3>24. Conni geht verloren</f3>
+    <p>
+    Conni braucht ein neues T Shirt und eine neue Hose. Zusammen mit ihrer Mama geht Conni in die Stadt zum 
+    Einkaufen. Schon der Weg zum Kaufhaus ist aufregend: Conni darf sich bei einem Straßenverkäufer ein Windrad 
+    aussuchen. Die Kinderabteilung des Kaufhauses zieht Conni besonders an: Es gibt viele Regale, tolle 
+    Rollständer und lange Rolltreppen. Dort kann man prima Verstecken spielen! Als jedoch plötzlich ihre Mama 
+    verschwunden ist, findet Conni das Kaufhaus gar nicht mehr schön. Conni irrt verzweifelt zwischen fremden 
+    Menschen umher. Zum Glück schafft sie es am Ende aber ihre Mama wieder zu finden.
+    (Text: KiKA)
+    </p>
+
+    <f3>25. Conni entdeckt die Bücher</f3>
+    <p>
+    Hurra! Connis Oma hat ihrer Enkelin ein Buch mitgebracht, das nun immer wieder vorgelesen werden muss. Conni 
+    kennt die Geschichte bald auswendig. Doch auf einmal ist ihr Buch verschwunden und Conni ist untröstlich. 
+    Vielleicht gibt es das Buch in der Bücherei oder in einer Buchhandlung? Wo und wie man Bücher ausleihen oder 
+    kaufen kann, erfährt Conni zusammen mit ihrer Oma. Und zum Glück taucht Connis Buch wieder auf. Doch nun mag 
+    Conni selbst eine Geschichte erfinden. Im Kindergarten illustriert Conni ihre selbst erfundene Geschichte 
+    und stolz präsentiert sie ihrer Familie ihr erstes Conni Buch.
+    (Text: KiKA)
+    </p>
+
+    <f3>26. Conni geht zum Kinderarzt</f3>
+    <p>
+    Conni ist verwirrt. Warum muss sie zum Kinderarzt, wenn sie doch ganz gesund ist? Mama erklärt ihr, dass 
+    sie zu einer Vorsorgeuntersuchung gehen. Der Arzt stellt dabei fest, ob Conni sich altersgerecht 
+    entwickelt hat. Das findet Conni ganz lustig, denn sie darf dem Arzt zeigen, was sie alles kann. So hüpft 
+    sie auf einem Bein kreuz und quer durchs Arztzimmer, balanciert auf einem Bein, führt die Fingerspitzen 
+    an die Nase und ordnet Bilder einander zu. Und das Tollste ist, dass der Arzt sie lobt und alles in einem 
+    gelben Heftchen aufschreibt. So kann Mama ihr die Ergebnisse zu Hause vorlesen, immer wieder oder eben so 
+    lange bis zur nächsten Vorsorgeuntersuchung.
+    (Text: KiKA)
+    </p>
+
+    <p></p>
+
+</details>
+
+<footer>
+    <p></p>
+</footer>
+
+    <h6><a href="index.html" target="_self">b6ck</a></h6>
+
+</body>
+</html>
+
+

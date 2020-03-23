@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #ddd;
+  padding: 10px;
+    text-align: center;
+}
+
+article div {
+  padding: 10% 1%;
+}
+
+article div img{
+  margin: 2%;
+  opacity: 0.88;	
+  border: 6px ridge black;
+  border-radius: 15%;
+}
+
+.sky {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-image: linear-gradient(180deg,
+        red 0%, 
+        orange 16.7%, 
+        yellow 33.3%, 
+        green 50%, 
+        blue 66.7%,
+        purple 83.3%);
+}
+
+.sky2 {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-image: linear-gradient(180deg,
+        purple 16.7%, 
+        blue 33.3%, 
+        green 50.0%, 
+        yellow 66.7%, 
+        orange 83.3%,
+        red 100%);
+}
+
+.mountain {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-image: linear-gradient(90deg,
+        red 0%, 
+        orange 16.7%, 
+        yellow 33.3%, 
+        green 50%, 
+        blue 66.7%,
+        purple 83.3%);
+}
+
+.rainbow {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background: radial-gradient(circle farthest-side at left bottom, 
+        red 0%, 
+        orange 16.7%, 
+        yellow 33.3%, 
+        green 50%, 
+        blue 66.7%,
+        purple 83.3%);
+}
+
+.rainbow2 {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background: radial-gradient(circle farthest-side at right top, 
+        purple 16.7%, 
+        blue 33.3%, 
+        green 50.0%, 
+        yellow 66.7%, 
+        orange 83.3%,
+        red 100%);
+}
+
+.rainbow h2, .rainbow2 h2, .sky h2, .sky2 h2, .mountain h2 {
+    text-decoration: none;
+    font-size: 3em;
+    color: white;
+}
+
+.de {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-image: linear-gradient(black, black 33%, red 33%, red 67%, gold 67%, gold);
+}
+
+.hu {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-image: linear-gradient(red, red 33%, white 33%, white 67%, green 67%, green);
+}
+
+.fr {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-image: linear-gradient(to right, blue, blue 33%, white 33%, white 67%, red 67%, red);
+}
+
+.en {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-image:
+        linear-gradient(0deg, blue, blue),
+        repeating-linear-gradient(180deg,
+            red, red 7.7%, white 7.7%, white 15.4%);
+    background-size: 40% 53.85%, 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+/* Style the details */
+details {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+details summary{
+  background-color: #666;
+  color: white;
+  cursor: pointer;
+  margin: 0 0 10px 0;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+body footer p::after {
+    content: "@2019-2020 BY MONOLYTH64G (Commondoor-grouP) EmiL";
+}
+
+section footer{
+  cursor: pointer;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 960px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
