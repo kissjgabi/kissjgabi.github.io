@@ -1,0 +1,158 @@
+
+ul.navmenu {
+	display: initial;
+	clear: both;
+	position: fixed;
+	top: 1em;
+	left: .5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.navmenu li {
+	float: left;
+    background-color: gray;
+}
+
+ul.navmenu li a {
+	display: inline-block;
+	color: whitesmoke;
+    text-align: left;
+    padding: 8px 1em;
+    text-decoration: none;
+}
+
+ul.navmenu li:hover {
+	color: white;
+	background-color: darkgray;
+}
+
+ul.navmenuSmall {
+	display: none;
+	clear: both;
+	position: fixed;
+	top: 1em;
+	left: .5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.navmenuSmall li {
+	clear: both;
+	float: left;
+    background-color: gray;
+}
+
+ul.navmenuSmall li a {
+	display: inline-block;
+	color: whitesmoke;
+    text-align: left;
+    padding: 8px 1em;
+    text-decoration: none;
+}
+
+.navnmenuSmall {
+	display: initial;
+}
+
+
+ul.navmenuSmall li:hover {
+	color: white;
+	background-color: darkgray;
+}
+
+.menuhomeicon {
+	display: initial;
+}
+.menuhomeicon span {
+	display: initial;
+}
+
+.menubaricon {
+	display: none;
+}
+
+.menulinkicon {
+	display: initial;
+}
+.menulinkicon span {
+	display: initial;
+}
+
+.menulinkiconSmall {
+	display: none;
+}
+.menulinkiconSmall span {
+	display: none;
+}
+
+.fametric {
+	font-size:30px !important
+}
+
+
+@media all and (max-width: 1200px){
+	.menuhomeicon {
+		display: initial;
+	}
+	.menuhomeicon span {
+		display: initial;
+	}
+	
+	.menubaricon {
+		display: none;
+	}
+	
+	.menulinkicon {
+		display: initial;
+	}
+	.menulinkicon span {
+		display: none;
+	}
+	.fametric {
+		font-size:25px !important
+	}
+}
+
+@media all and (max-width: 800px){
+	ul.navmenu {
+		display: none;
+	}
+	ul.navmenuSmall {
+		display: initial;
+	}
+	.menuhomeicon {
+		display: initial;
+		min-width: 3.5em;
+	}
+	.menuhomeicon span {
+		display: none;
+	}
+	.menubaricon {
+		display: initial;
+		min-width: 3.5em;
+	}
+	.menulinkicon {
+		display: none;
+	}
+	.menulinkiconSmall {
+		min-width: 10em;
+		display: none;
+		opacity: 0.80;
+		filter: alpha(opacity=80); /* For IE8 and earlier */
+	}
+	.menulinkiconSmall:hover {
+		opacity: 0.975;
+		filter: alpha(opacity=97.5); /* For IE8 and earlier */
+	}
+	.menulinkiconSmall span {
+		display: initial;
+	}
+	.fametric {
+		font-size:22px !important
+	}
+}
+
+

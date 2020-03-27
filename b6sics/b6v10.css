@@ -1,0 +1,220 @@
+@import url("b6togglemenu.css");
+@import url("b601colors.css");
+@import url("b6appmode.css");
+@import url("b6-theme.css");
+@import url("b6canvas.css");
+
+@import url("https://use.fontawesome.com/releases/v5.1.0/css/all.css") ;
+@import url("https://use.fontawesome.com/releases/v5.1.0/css/v4-shims.css") ;
+@import url("https://fonts.googleapis.com/css?family=Rubik") ;
+
+*{
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.navmenu, .navmenuSmall, h1, button {
+	font-family: 'Rubik', sans-serif;
+}
+
+.fa-27 {
+	font-size:27px !important;
+}
+.fa-80 {
+	font-size:80px !important;
+}
+.fa-160 {
+	font-size:160px !important;
+}
+
+body {
+	font-family: serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color : #234;
+	
+	width: 100vw;
+	height: 100vh;
+
+	background-color : rgba(160,154,128, 0.8); 
+	background-image : url('../b62018home.img/BackGround-e.png'); 
+	background-repeat : no-repeat; 
+	background-size: auto 75vh;
+
+	background-attachment : fixed; 
+	background-position : center center; 
+/*	*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial,sans-serif;
+}
+h1 {font-size:36px}
+h2 {font-size:30px}
+h3 {font-size:24px}
+h4 {font-size:20px}
+h5 {font-size:18px}
+h6 {font-size:16px}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:400;
+	margin:10px 0;
+	padding:  0.01em 0.5em;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-weight:inherit;
+}
+
+.b6-right {float:right!important;}
+.b6-left {float:left!important;}
+.b6-clear { clear: both; }
+.b6-first-letter::first-letter {font-size:150%; font-weight:bold;line-height: 1;}
+.b6-indent {text-indent: 7.5%;}
+
+.b6-frontpage {
+	margin: 0, 16px, 0, 0;
+	padding: 0;
+	text-align: center;
+	width: 91.99vw;
+	height: calc(100vh - 2.01em);
+    border-top: .99em solid rgba(1,1,1,.25);
+    border-right: 3.99vw solid rgba(1,1,1,.25);
+    border-bottom: .99em solid rgba(1,1,1,.25);
+    border-left: 3.99vw solid rgba(1,1,1,.25);
+}
+
+.b6-container {
+	padding: 0.01em 0;
+	overflow: auto;	
+	text-align: center;
+}
+
+.b6-content {
+	padding: 0.01em 0.5em;
+	overflow: auto;
+	max-width:92%;
+	margin:auto;
+}
+
+.b6-quarter, .b6-third, .b6-half, .b6-twothird, .b6-threequarter {
+	padding: 0.01em 0.5em;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.b6-quarter {
+	width: 24.99999%;
+}
+.b6-twothird {
+	width: 33.33333%;
+}
+.b6-half {
+	width: 49.99999%;
+}
+.b6-twothird {
+	width: 66.66666%;
+}
+.b6-threequarter {
+	width: 74.99999%;
+}
+	
+.b6-padding-0 {padding:0!important}
+.b6-padding-4 {padding-top:4px!important;padding-bottom:4px!important}
+.b6-padding-8 {padding-top:8px!important;padding-bottom:8px!important}
+.b6-padding-16 {padding-top:16px!important;padding-bottom:16px!important}
+.b6-padding-32 {padding-top:32px!important;padding-bottom:32px!important}
+.b6-padding-64 {padding-top:64px!important;padding-bottom:64px!important}
+
+.b6-left-align {text-align:left!important}
+.b6-right-align {text-align:right!important}
+.b6-justify {text-align:justify!important}
+.b6-center {text-align:center!important}
+
+ 
+.b6-black {background-color: black;}
+.b6-white {background-color: white;}
+
+.b6-transparent {background-color:transparent;}
+.b6-pergamen {background-color: rgba(252,252,225,.95);}
+.b6-sunshine {background-color: rgba(255,255,255,.95);}
+.b6-blackhole {background-color: rgba(1,1,1,.25);}
+
+#buttoninfo, #button2top, #buttongdpr {
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#buttoninfo {
+  position: fixed;
+  display: block;
+  left: 0;
+  bottom: 16px;
+}
+
+#button2top {
+  position: fixed;
+  display: none;
+  left: 0;
+  bottom: 16px;
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#buttongdpr {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 16px;
+}
+
+#buttongdpr span {
+  display: inline;
+}
+
+#buttoninfo:hover, #button2top:hover, #buttongdpr:hover {
+  background-color: darkgray;
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+	
+@media (max-width:800px) {
+	.b6-hide-small {
+		display:none !important
+	}
+	.b6-quarter, .b6-third, .b6-half, .b6-twothird, .b6-threequarter {
+		width: 100% !important;
+	}
+	#buttongdpr {
+  		display: none !important;
+	}
+}
+@media (max-width:1199px) and (min-width:801px) {
+	.b6-hide-medium {
+		display:none !important;
+	}
+	#buttongdpr span {
+		display: none !important;
+}
+}
+@media (min-width:1200px) {
+	.b6-hide-large {
+		display:none !important;
+	}
+}
+
+
+	
+	
+	
+	
+	

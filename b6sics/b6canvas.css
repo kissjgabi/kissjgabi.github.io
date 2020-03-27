@@ -1,0 +1,43 @@
+
+canvas {
+    outline:0;
+    border:1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.formula {
+	margin: 0 auto;
+	border-collapse: collapse;
+	vertical-align: middle;
+	text-align: center;
+	caption-side: bottom;
+}
+.formula caption {
+	text-align: left;
+	font-weight: bolder;
+}
+.formula thead {
+	color: white;
+	background-color: red;
+}
+.formula tbody {
+	color: black;
+	background-color: white;
+}
+.formula tfoot {
+	color: white;
+	background-color: green;
+}
+.formula th, .formula td {
+	padding: 4px;
+}
+.denominator {
+	border-top: 1px solid;
+}
+.numerator {
+	border-bottom: 1px solid;
+
+}
+
