@@ -40,7 +40,7 @@ body {
 	height: 100vh;
 
 	background-color : rgba(160,154,128, 0.8); 
-	background-image : url('../b62018home.img/BackGround-e.png'); 
+	background-image : url('BackGround-e.png'); 
 	background-repeat : no-repeat; 
 	background-size: auto 75vh;
 
