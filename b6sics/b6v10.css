@@ -16,6 +16,15 @@ html, body {
 	padding: 0;
 }
 
+a {
+    text-decoration: none !important;
+    color: navy;
+}
+
+a:hover {
+    color: gray !important;
+}
+
 .navmenu, .navmenuSmall, h1, button {
 	font-family: 'Rubik', sans-serif;
 }
