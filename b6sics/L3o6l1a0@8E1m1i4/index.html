@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	<!-- link  rel="stylesheet" href="valami.css" / -->
+	
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+		  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+		  crossorigin="anonymous" />
+
+    <title>B6sics administration</title>
+	
+	<style>
+		body { background-color: beige;}
+        #front { position: absolute;
+                 background-image: url('../BackGround-e.png');
+                 background-size: contain;
+                 background-position: center;
+                 background-repeat: no-repeat;
+                 background-attachment: fixed;
+                 top: 62px;
+                 left: 0;
+                 bottom: 42px;
+                 right: 0;
+            }
+        pre { background-color: navy;
+              color: white; 
+              margin: 0;
+              padding: 1em;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              opacity: 20%;
+            }
+        pre:hover { opacity: 85%;
+            }
+        pre span { background-color: yellow;
+                    color: black;
+                    font-style: bold;
+            }
+	</style>
+  </head>
+  <body>
+
+
+
+<hr />
+<nav class="navbar fixed-top navbar-light bg-light">
+  <a class="navbar-brand" href="http://b6sics.hu">B6sics</a>
+  <a class="navbar-item" href="https://online.mhosting.hu/">Ügyfélkapu</a>
+  <a class="navbar-item" href="http://s23.tarhely.com/cpanel">cPanel</a>
+  <a class="navbar-item" href="http://s23.tarhely.com/webmail">Webmail</a>
+  <a class="navbar-item" href="https://online.mhosting.hu//knowledgebase.php/">Gy.I.K.</a>
+</nav>
+<hr />
+
+<div id="front">
+
+
+<pre><code><u> <strong>B6sics</strong> administration </u>
+
+Ha bármikor csomagot váltana, nem szükséges új tárhelyet rendelnie. 
+A jelenlegi kényelmesen módosítható, erről itt talál segítséget:
+<span> <a href="https://online.mhosting.hu//knowledgebase.php?action=displayarticle&id=23">a Bővítés/Csökkentés funkció</a> </span>
+
+<strong>cPanel:</strong>  <span> bsicshu / E|1a </span>
+Ha domainje már aktív, és erről a tárhelyről működik, használja az alábbi címet: 
+<span>http://b6sics.hu/cpanel</span>
+Amíg domainje nincs aktiválva, használja az alternatív címet: 
+<span>http://s23.tarhely.com/cpanel</span>
+A cPanelen használhatja a Fájlkezelőt fájlok feltöltéséhez,
+és a PhpMyAdmint az adatbázisok kezeléséhez.
+
+<strong>FTP</strong> cím: <span> b6sics.hu </span>
+Amíg domainje nincs aktiválva, FTP feltöltésre az alábbi
+alternatív FTP szerver elérést használhatja: <span> s23.tarhely.com </span>
+
+<strong>Szerver információ</strong>
+ Szerver név: <span> s23.tarhely.com </span>
+ Szerver IP: <span> 185.111.89.131 </span>
+
+<strong>Email beállítások</strong> Webmail: <span> http://b6sics.hu/webmail </span>
+Felhasználónév: a teljes emailcím
+(pl: info@b6sics.hu formátumban)
+    Bejövő szerver: s23.tarhely.com
+        IMAP port: 993 (SSL titkosítás)
+        POP3 port: 995 (SSL titkosítás)
+    Kimenő szerver: s23.tarhely.com
+        SMTP-port: 465 (SSL titkosítás)
+        SMTP-port: 587 (TLS titkosítás)
+
+<strong>Az ügyfélkapu címe:</strong> <span> https://online.mhosting.hu/ </span>
+<strong>Belépés:</strong> <span> b6@b6.hu / E|1a </span></code></pre>
+
+</div>
+
+<hr />
+<nav class="navbar fixed-bottom navbar-light bg-light">
+  <a class="navbar-item" href="https://www.nethely.hu/ugyfelszolgalat/">www.nethely.hu C-Panel</a>
+  <a class="navbar-item" href="https://www.nethely.hu/ingyenes-tarhely">www.nethely.hu</a>
+</nav>
+<hr />
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+			crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+			crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+			crossorigin="anonymous"></script>
+
+  </body>
+</html>
