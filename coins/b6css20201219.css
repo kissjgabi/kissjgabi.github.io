@@ -39,7 +39,7 @@ body {
 }
 
 .brick:nth-child(even) {
-    background: rgba(20, 20, 20, 0.7);
+    background: rgba(220, 20, 20, 0.7);
     animation: wave 10s cubic-bezier(0.36, 0.45, 0.63, 0.53) 4s infinite;
 }
 
