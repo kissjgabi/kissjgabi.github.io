@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: bold Helvetica;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ffee22;
+}
+
+.container {
+    position: relative;
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3vmin;
+}
+
+.container .card {
+    position: relative;
+    max-width: 300px;
+    height: 220px;
+    background: #ffffff;
+    margin: 50px 20px 0;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 100px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.container .card:active {
+    height: 420px;
+}
+
+.container .card:hover {
+    height: 420px;
+    cursor: pointer;
+}
+
+.container .card::after {
+    content: 'DINO';
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 5vmin;
+    font-weight: 900;
+    color: rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.container .card:active::after,
+.container .card:hover::after {
+    bottom: 250px;
+    transition: 0.3s ease-in-out;
+}
+
+.container .card .imgBox {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 100px rgba(0, 0, 0, 0.5);
+}
+
+.container .card .imgBox img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 80%;
+    border-radius: 4%;
+}
+
+.container .card:nth-child(1) .imgBox {
+    background-color: red;
+}
+
+.container .card:nth-child(2) .imgBox {
+    background-color: yellow
+}
+
+.container .card:nth-child(3) .imgBox {
+    background-color: green;
+}
+
+.container .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container .card .content h2 {
+    margin-bottom: 1vmin;
+}
+
+.container .card:active .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -30px;
+    transition-delay: 0.3s;
+}
+
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -20px;
+    transition-delay: 0.3s;
+}
