@@ -15,7 +15,7 @@ body {
 .start {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     padding: 1vmin;
     background: olivedrab;
     background-image: url('power-off-solid.svg');
