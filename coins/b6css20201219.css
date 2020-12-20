@@ -12,6 +12,21 @@ body {
     overflow: hidden;
 }
 
+.start {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1vmin;
+    background: olivedrab;
+    background-image: url('power-off-solid.svg');
+    background-position: center center;
+    background-size: 4vmin;
+    background-repeat: no-repeat;
+    width: 5vw;
+    height: 10vh;
+    z-index: 2;
+}
+
 .wall {
     height: 100vh;
     width: 100vw;
