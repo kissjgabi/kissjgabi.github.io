@@ -1,12 +1,12 @@
 
 .mybody::after {
-    content:"";
-    position:fixed; /* stretch a fixed position to the whole screen */
-    top:0;
-    height:100vh; /* fix for mobile browser address bar appearing disappearing */
-    left:0;
-    right:0;
-    z-index:-1; /* needed to keep in the background */
+    content: "";
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    z-index: -1;
 
     background-attachment: scroll;
     background-position: center center;
@@ -18,7 +18,7 @@
 }
 
 .bg1::after {
-    background-image:  linear-gradient(rgba(0,0,255,0.5), rgba(0,255,0,0.5), rgba(255,0,0,0.5));
+    background-image: linear-gradient(rgba(0,0,255,0.5), rgba(0,255,0,0.5), rgba(255,0,0,0.5));
 }
 
 canvas {
