@@ -10,14 +10,16 @@
 }
 
 .author {
-    color: black;
-    text-shadow: 0 0 10px white;
-    font-weight: 900;
-    text-decoration: none;
-    padding: 1vmin 3vmin;
     border: 1px solid black;
-    cursor: pointer;
+    height: 200px;
+    width: 300px;
+    opacity: 0.70;
+    transition: 1s;
 }
+
+.author:hover {
+    opacity: 1;
+} 
 
 .author:nth-child(odd) {
     margin: 1vh 1vw 1vh 2vw;
@@ -31,7 +33,6 @@
 
 .author:nth-child(3n) {
     margin: 1vh 3vw 1vh 3vw;
-    background: lightblue;
     background: rgba(0, 192, 0, 0.55);
 }
 
@@ -50,25 +51,3 @@
     background: rgba(255, 255, 0, 0.55);
 }
 
-.sprite {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 45vmin;
-    height: 30vmin;
-    border-radius: 50%;
-    background-image: radial-gradient(rgba(0, 0, 0, 0.75) 5%, rgba(128, 128, 128, 0.25) 20%, transparent 75%);
-    cursor: pointer;
-}
-
-.play {
-    position: absolute;
-    top: 2.5vmin;
-    right: 15vmin;
-    width: 15vmin;
-    height: auto;
-}
-
-a:focus {
-    -webkit-filter: invert(30%) brightness(80%) sepia(100%) contrast(110%) saturate(953%) hue-rotate(165deg);
-}
