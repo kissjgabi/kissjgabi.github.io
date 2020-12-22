@@ -45,8 +45,8 @@ const opacity = 0.01;
 const canvas1 = document.getElementById('canvas1');
 const ctx1 = canvas1.getContext('2d');
 
-canvas1.width = window.innerWidth * 2;
-canvas1.height = window.innerHeight * 2;
+canvas1.width = window.innerWidth;
+canvas1.height = window.innerHeight;
 ctx1.globalCompositeOperation = gCompositeOp[0];
 
 const mouse = {
@@ -92,8 +92,8 @@ window.addEventListener('wheel', function(event){
 });
 
 window.addEventListener('mousemove', function(event){
-    mouse.x = event.x * 2;
-    mouse.y = event.y * 2;
+    mouse.x = event.x;
+    mouse.y = event.y;
     // console.log("[ " + mouse.x + " : " + mouse.y + " ]");
     if(isDrawing){
         branchOut();
