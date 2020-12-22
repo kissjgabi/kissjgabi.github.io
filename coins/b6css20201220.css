@@ -58,3 +58,8 @@ canvas {
     height: 10vh;
     z-index: 2;
 }
+
+.back:hover, .next:hover {
+    -webkit-filter: brightness(128%) contrast(110%);
+}
+

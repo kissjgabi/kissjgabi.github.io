@@ -19,6 +19,8 @@
 
 .author:hover {
     opacity: 1;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+    transform: translateY(-1vmin) scale(1.05);    
 } 
 
 .author:nth-child(odd) {

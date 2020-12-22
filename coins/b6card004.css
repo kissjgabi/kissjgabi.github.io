@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.container .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vmin;
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(0deg, #1b1b1b, #333, #1b1b1b);
+    border-radius: 2vmin;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.75s;
+}
+
+.container .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.container .card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.unit {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #000;
+    background: #222;
+    z-index: 100;
+}
+
+.unit .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.unit .number h2 {
+    color: #777;
+    font-weight: 700;
+    font-size: 36px;
+    transition: 0.5s;
+}
+
+.card:hover .unit .number h2 {
+    color: #eee;
+    font-size: 48px;
+}
+
+.unit .number h2 span {
+    font-size: 24px;
+}
+
+.text {
+    position: relative;
+    margin-top: 20px;
+    color: #777;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.card:hover .text {
+    color: #eee;
+}
+
+svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 10;
+}
+
+svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #191919;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+}
+
+svg circle:nth-child(1),
+svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+.card:nth-child(1) svg circle:nth-child(1) {
+    stroke-dashoffset: 128;
+    stroke: #888;
+}
+
+.card:nth-child(1):hover svg circle:nth-child(1) {
+    stroke: #00ff43;
+    transition-delay: 0.5s;
+}
+
+.card:nth-child(2) svg circle:nth-child(1) {
+    stroke-dashoffset: 110;
+    stroke: #888;
+}
+
+.card:nth-child(2):hover svg circle:nth-child(1) {
+    stroke: #00a1ff;
+    transition-delay: 0.5s;
+}
+
+.card:nth-child(3) svg circle:nth-child(1) {
+    stroke-dashoffset: 150;
+    stroke: #888;
+}
+
+.card:nth-child(3):hover svg circle:nth-child(1) {
+    stroke: #ff04f3;
+    transition-delay: 0.5s;
+}
+
+.card:nth-child(1):hover svg circle:nth-child(2) {
+    stroke: #00ff43;
+    animation: fill01 0.5s ease-in;
+}
+
+.card:nth-child(2):hover svg circle:nth-child(2) {
+    stroke: #00a1ff;
+    animation: fill02 0.5s ease-in;
+}
+
+.card:nth-child(3):hover svg circle:nth-child(2) {
+    stroke: #ff04f3;
+    animation: fill03 0.5s ease-in;
+}
+
+@keyframes fill01 {
+    to {
+        stroke-dashoffset: 128;
+    }
+}
+
+@keyframes fill02 {
+    to {
+        stroke-dashoffset: 110;
+    }
+}
+
+@keyframes fill03 {
+    to {
+        stroke-dashoffset: 150;
+    }
+}
+
