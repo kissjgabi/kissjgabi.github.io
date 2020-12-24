@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hu"><head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, 
+                                   initial-scale=1, 
+                                   shrink-to-fit=no" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>e-card 004</title>
+
+    <link rel="stylesheet" href="b6css20201224.css">
+    <link rel="stylesheet" href="b6card005.css">
+
+</head>
+<body class="mybody bg1">
+
+    <div class="loader">
+        <div class="particle"><div></div></div>
+        <div class="particle leftSpin"><div></div></div>
+        <div class="particle"><div></div></div>
+        <div class="particle rightSpin"><div></div></div>
+        <div class="particle"><div></div></div>
+        <div class="particle leftSpin"><div></div></div>
+        <div class="particle"><div></div></div>
+        <div class="particle rightSpin"><div></div></div>
+        <div class="particle"><div></div></div>    
+    </div>
+
+    <svg>
+        <defs>
+            <filter id='goo'>
+                <feGaussianBlur in='SourceGraphic'
+                 stdDeviation='10' />
+                <feColorMatrix in='name' mode='matrix'
+                    values='1 0 0 0 0
+                            0 1 0 0 0
+                            0 0 1 0 0
+                            0 0 0 100 -15' />
+                <feBlend in='SourceGraphic' />
+            </filter>
+        </defs>
+    </svg>
+    
+    <a href="#" onclick="window.history.back();" class="back" title="back"></a>
+    <a href="card005.html" class="next" title="next"></a>
+
+    <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="sketch.png" title="sketch" alt="sketch" />
+                    <h3>
+                        Design
+                    </h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatem impedit, quisquam voluptatum soluta inventore iure?
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="data.png" title="data" alt="data" />
+                    <h3>
+                        Code
+                    </h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatem impedit, quisquam voluptatum soluta inventore iure?
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="startup.png" title="startup" alt="startup" />
+                    <h3>
+                        Launch
+                    </h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatem impedit, quisquam voluptatum soluta inventore iure?
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
