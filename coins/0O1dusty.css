@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body {
+	background-color: #111;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.title {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #fff;
+    mix-blend-mode: color-dodge;
+}
+
+h1 {
+	background: linear-gradient(-60deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
+	background-position: 0% 50%;
+	background-size: 400% 400%;
+	-webkit-animation: gradients 10s ease infinite;
+	        animation: gradients 10s ease infinite;
+    color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: 0.75em;
+	margin: 0 auto;
+    filter: blur(2px) contrast(150%) brightness(130%);
+}
+
+@-webkit-keyframes gradients {
+	0% {
+		background-position: 0% 50%;
+        filter: blur(2px) contrast(150%) brightness(130%);
+	}
+	25% {
+		background-position: 50% 30%;
+        filter: blur(10px) contrast(120%) brightness(110%);
+	}
+	50% {
+		background-position: 100% 50%;
+        filter: blur(2px) contrast(150%) brightness(130%);
+	}
+	75% {
+		background-position: 150% 70%;
+        filter: blur(10px) contrast(120%) brightness(110%);
+	}
+	100% {
+		background-position: 200% 50%;
+        filter: blur(2px) contrast(150%) brightness(130%);
+	}
+}
+@keyframes gradients {
+	0% {
+		background-position: 0% 50%;
+        filter: blur(2px) contrast(150%) brightness(130%);
+	}
+	25% {
+		background-position: 50% 30%;
+        filter: blur(10px) contrast(120%) brightness(110%);
+	}
+	50% {
+		background-position: 100% 50%;
+        filter: blur(2px) contrast(150%) brightness(130%);
+	}
+	75% {
+		background-position: 150% 70%;
+        filter: blur(10px) contrast(120%) brightness(110%);
+	}
+	100% {
+		background-position: 200% 50%;
+        filter: blur(2px) contrast(150%) brightness(130%);
+	}
+}
+
+.white-mode {
+	text-decoration: none;
+	padding: 7px 10px;
+	background-color: #122;
+	border-radius: 3px;
+	color: #fff;
+	transition: 0.35s ease-in-out;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	font-family: "Montserrat";
+}
+
+.white-mode:hover {
+	background-color: #fff;
+	color: #122;
+}
+
