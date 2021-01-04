@@ -1,0 +1,556 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head>
+		<!--Meta Info-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="KEYWORDS" content="Lazy Foo' Productions freeGLUT glut C++ OpenGL Tutorial 2D 3D Windows Linux Mac Game Programming Tutorials">
+		<meta name="DESCRIPTION" content="A beginners guide for OpenGL.">
+
+		<title>Lazy Foo' Productions - OpenGL Tutorials</title>
+
+		<link rel="stylesheet" type="text/css" href="OGL%20by%20Lazy%20Foo_files/lazy.css">
+		
+		<script src="OGL%20by%20Lazy%20Foo_files/sdk.js" async="" crossorigin="anonymous"></script><script src="OGL%20by%20Lazy%20Foo_files/cbgapi.loaded_2" async=""></script><script src="OGL%20by%20Lazy%20Foo_files/cbgapi.loaded_1" async=""></script><script src="OGL%20by%20Lazy%20Foo_files/cbgapi.loaded_0" async=""></script><script id="twitter-wjs" src="OGL%20by%20Lazy%20Foo_files/widgets.js"></script><script type="text/javascript" async="" src="OGL%20by%20Lazy%20Foo_files/ga.js"></script><script src="OGL%20by%20Lazy%20Foo_files/main.js">
+		</script>
+	<style type="text/css" data-fbcssmodules="css:fb.css.basecss:fb.css.dialog css:fb.css.iframewidget">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style><script charset="utf-8" src="OGL%20by%20Lazy%20Foo_files/button.js"></script></head>
+
+	<body>
+
+		<div class="header">
+
+<h1 style="margin-bottom:0px;padding-bottom:0px;border-bottom:0px;">Lazy Foo' Productions</h1>
+<div class="nav">
+<a class="nav" href="https://discourse.libsdl.org/">SDL Forums</a>
+<a class="nav" href="https://lazyfoo.net/tutorials/SDL/index.php">SDL Tutorials</a>
+<a class="nav" href="https://lazyfoo.net/articles/index.php">Articles</a>
+<a class="nav" href="https://lazyfoo.net/tutorials/OpenGL/index.php">OpenGL Tutorials</a>
+<a class="nav" href="https://www.opengl.org/discussion_boards/forum.php">OpenGL Forums</a>
+<div class="ads">
+<script type="text/javascript"><!--
+google_ad_client = "pub-5880704953225255";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_type = "text_image";
+google_ad_channel ="";
+google_color_border = "6699CC";
+google_color_bg = "003366";
+google_color_link = "FFFFFF";
+google_color_url = "AECCEB";
+google_color_text = "AECCEB";
+//--></script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><a class="nav" href="https://lazyfoo.net/index.php">News</a>
+<a class="nav" href="https://lazyfoo.net/faq.php">FAQs</a>
+<a class="nav" href="https://lazyfoo.net/contact.php">Contact</a>
+<a class="nav" href="https://lazyfoo.net/donate.php">Donations</a>
+
+</div><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32350292-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--Init facebook-->
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+<script async="" defer="defer" crossorigin="anonymous" src="OGL%20by%20Lazy%20Foo_files/sdk_002.js"></script>
+
+<!--Init twitter-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<!--Init google+-->
+<script src="OGL%20by%20Lazy%20Foo_files/plusone.js" gapi_processed="true"></script>
+</div>
+		<div class="content">
+
+			<div class="tutPreface">
+				<h1 class="tutHead">Introduction to OpenGL Graphics Programming</h1>
+				<h6>Last Updated 10/19/14</h6>
+				OpenGL is a powerful cross platform graphics API. With OpenGL, you 
+can get hardware accelerated 2D and 3D rendering. This tutorial set was 
+made to give beginners a
+				head start by going through the basics of OpenGL usage.<br>
+				<br>
+				For this tutorial we'll be starting using the OpenGL 2.1 era code to get started with the basics. Then we'll transition to
+				<a class="tutLink" href="#Hello GLSL">modern OpenGL 3.0+</a> shader based programs.<br>
+				<br>
+				Make sure to check out the <a href="https://lazyfoo.net/faq.php" class="tutLink">Frequently Asked OpenGL Tutorial Questions</a>. If you're having trouble with vector math, check
+				out my <a href="https://lazyfoo.net/articles/article10/index.php" class="tutLink">OpenGL Math Primer</a>.
+			</div>
+
+			<table class="tutToC">
+
+				<colgroup><col width="20%">
+				<col width="80%">
+
+				</colgroup><tbody><tr>
+					<td class="ToCTitle" colspan="2">
+					Table of Contents
+					</td>
+				</tr>
+
+				<tr>
+					<td class="tutLink">
+						<a href="https://lazyfoo.net/tutorials/OpenGL/00_introduction/index.php" class="tutLink" name="Introduction">Introduction</a><br>
+					</td>
+					<td class="tutLink">
+						We'll be talking about what these tutorials will cover and what they're designed to do.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 01<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/01_hello_opengl/index.php" class="tutLink" name="Hello OpenGL">Hello OpenGL</a><br>
+					</td>
+					<td class="tutLink">
+						Here we set up an OpenGL window using freeGLUT and <a href="https://lazyfoo.net/tutorials/OpenGL/01_hello_opengl/index2.php" class="tutLink">render a quad to the screen</a>.
+					</td>
+				</tr>
+
+				<tr>
+					<td class="tutLink">
+						Lesson 02<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/02_matrices_and_coloring_polygons/index.php" class="tutLink" name="Matrices and Coloring Polygons">Matrices and Coloring Polygons</a><br>
+					</td>
+					<td class="tutLink">
+						Here we learn how to set up our rendering coordinates and give 
+color to our polygons. We'll also go over the very basics of how a GPU 
+pipeline works.
+					</td>
+				</tr>
+
+				<tr>
+					<td class="tutLink">
+						Lesson 03<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/03_the_viewport/index.php" class="tutLink" name="The Viewport">The Viewport</a><br>
+					</td>
+					<td class="tutLink">
+						Here we learn how to control where on our screen we want OpenGL to render using the viewport.
+					</td>
+				</tr>
+
+				<tr>
+					<td class="tutLink">
+						Lesson 04<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/04_scrolling_and_the_matrix_stack/index.php" class="tutLink" name="Scrolling and the Matrix Stack">Scrolling and the Matrix Stack</a><br>
+					</td>
+					<td class="tutLink">
+						In many if not most games, the game environments are larger than 
+one screen. Here we'll learn to scroll through large environments.
+					</td>
+				</tr>
+
+				<tr>
+					<td class="tutLink">
+						Lesson 05<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/05_texture_mapping_and_pixel_manipulation/index.php" class="tutLink" name="Texture Mapping and Pixel Manipulation">Texture Mapping and Pixel Manipulation</a><br>
+					</td>
+					<td class="tutLink">
+						If you want to do 2D images in OpenGL, you want to use textured 
+quads. Here we'll apply a checkerboard texture to our geometry.
+					</td>
+				</tr>
+
+				<tr>
+					<td class="tutLink">
+						Lesson 06<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/06_loading_a_texture/index.php" class="tutLink" name="Loading a Texture">Loading a Texture</a><br>
+					</td>
+					<td class="tutLink">
+						We created a texture from memory, now we'll load a texture from a file using DevIL.
+					</td>
+				</tr>
+
+				<tr>
+					<td class="tutLink">
+						Lesson 07<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/07_clipping_textures/index.php" class="tutLink" name="Clipping Textures">Clipping Textures</a><br>
+					</td>
+					<td class="tutLink">
+						Often times multiple images are put onto one texture. Here we'll render a part of a texture.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 08<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/08_non_power_of_2_textures/index.php" class="tutLink" name="Non-Power-of-Two Textures">Non-Power-of-Two Textures</a><br>
+					</td>
+					<td class="tutLink">
+						Here we'll render an image that doesn't have power of two dimensions.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 09<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/09_updating_textures/index.php" class="tutLink" name="Updating Textures">Updating Textures</a><br>
+					</td>
+					<td class="tutLink">
+						Here we'll update a texture's pixels after creating it. 
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 10<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/10_color_keying_and_blending/index.php" class="tutLink" name="Color Keying and Blending">Color Keying and Blending</a><br>
+					</td>
+					<td class="tutLink">
+						In this lesson we'll give our image a transparent background and blend our image with the background. 
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 11<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/11_stretching_and_filters/index.php" class="tutLink" name="Stretching and Filters">Stretching and Filters</a><br>
+					</td>
+					<td class="tutLink">
+						Here we'll learn to stretch our texture to different sizes.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 12<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/12_rotation/index.php" class="tutLink" name="Rotation">Rotation</a><br>
+					</td>
+					<td class="tutLink">
+						In this lesson, we'll make a texture rotate to make it spin.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 13<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/13_matrix_transformations/index.php" class="tutLink" name="Matrix Transformations">Matrix Transformations</a><br>
+					</td>
+					<td class="tutLink">
+						Here we'll learn better way to stretch and rotate our textured quads using matrices.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 14<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/14_repeating_textures/index.php" class="tutLink" name="Repeating Textures">Repeating Textures</a><br>
+					</td>
+					<td class="tutLink">
+						Here we'll show the same texture multiple times on the same quad.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 15<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/15_extensions_and_glew/index.php" class="tutLink" name="Extensions and GLEW">Extensions and GLEW</a><br>
+					</td>
+					<td class="tutLink">
+						Here we'll get the latest OpenGL functionality using GLEW to get the OpenGL extensions.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 16<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/16_vertex_arrays/index.php" class="tutLink" name="Vertex Arrays">Vertex Arrays</a><br>
+					</td>
+					<td class="tutLink">
+						Here we'll send vertex data to the GPU in sets instead of one by one using vertex arrays.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 17<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/17_vertex_buffer_objects/index.php" class="tutLink" name="Vertex Buffer Objects">Vertex Buffer Objects</a><br>
+					</td>
+					<td class="tutLink">
+						In this tutorial, we'll store our vertex data on the GPU for drawing.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 18<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/18_textured_vertex_buffers/index.php" class="tutLink" name="Textured Vertex Buffers">Textured Vertex Buffers</a><br>
+					</td>
+					<td class="tutLink">
+						Here we'll render our textured quad as a VBO.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 19<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/19_sprite_sheets/index.php" class="tutLink" name="Sprite Sheets">Sprite Sheets</a><br>
+					</td>
+					<td class="tutLink">
+						Here we'll preallocate our vertex/index data for all of our sprites.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 20<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/20_bitmap_fonts/index.php" class="tutLink" name="Bitmap Fonts">Bitmap Fonts</a><br>
+					</td>
+					<td class="tutLink">
+						Bitmap fonts are a basic way to render text to the screen.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 21<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/21_alpha_textures/index.php" class="tutLink" name="Alpha Textures">Alpha Textures</a><br>
+					</td>
+					<td class="tutLink">
+						Up until now we've always used 32bit RGBA textures. In this 
+tutorial we'll make a special type of texture that only has an alpha 
+component.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 22<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/22_texture_blitting_and_texture_padding/index.php" class="tutLink" name="Texture Blitting and Texture Padding">Texture Blitting and Texture Padding</a><br>
+					</td>
+					<td class="tutLink">
+						Time to do some more advanced pixel manipulation to copy textures and manually pad them.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 23<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/23_freetype_fonts/index.php" class="tutLink" name="FreeType Fonts">FreeType Fonts</a><br>
+					</td>
+					<td class="tutLink">
+						Here we'll render text using a True Type font.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 24<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/24_text_alignment/index.php" class="tutLink" name="Text Alignment">Text Alignment</a><br>
+					</td>
+					<td class="tutLink">
+						Learn how to align your text to the top/bottom/left/right of whatever area you define.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 25<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/25_transforming_text/index.php" class="tutLink" name="Transforming Text">Transforming Text</a><br>
+					</td>
+					<td class="tutLink">
+						Here we'll apply matrix transformations to text.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 26<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/26_the_stencil_buffer/index.php" class="tutLink" name="The Stencil Buffer">The Stencil Buffer</a><br>
+					</td>
+					<td class="tutLink">
+						Using the stencil buffer, you can define the portions of the screen you want to render to with geometry.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 27<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/27_frame_buffer_objects_and_render_to_texture/index.php" class="tutLink" name="Frame Buffer Objects and Render to Texture">Frame Buffer Objects and Render to Texture</a><br>
+					</td>
+					<td class="tutLink">
+						Using frame buffer objects, you can render off screen. Here, we're
+ going to render to an off screen frame buffer to render to a texture.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 28<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/28_antialiasing_and_multisampling/index.php" class="tutLink" name="Antialiasing and Multisampling">Antialiasing and Multisampling</a><br>
+					</td>
+					<td class="tutLink">
+						Tired of jaggies on your polygons? Using antialiasing and multisampling you can smooth out those edges.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 29<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/29_hello_glsl/index.php" class="tutLink" name="Hello GLSL">Hello GLSL</a><br>
+					</td>
+					<td class="tutLink">
+						Modern OpenGL does its graphics operations with programmable 
+pipelines. This tutorial will get you started with your first GLSL 
+shader program.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 30<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/30_loading_text_file_shaders/index.php" class="tutLink" name="Loading Text File Shaders">Loading Text File Shaders</a><br>
+					</td>
+					<td class="tutLink">
+						Why recompile code you don't have to? In this tutorial we'll be loading our GLSL shader source code from an external file.
+					</td>
+				</tr>
+
+				<tr>
+					<td class="tutLink">
+						Lesson 31<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/31_glsl_matrices_color_and_uniforms/index.php" class="tutLink" name="GLSL Matrices, Color, and Uniforms">GLSL Matrices, Color, and Uniforms</a><br>
+					</td>
+					<td class="tutLink">
+						In this tutorial we'll be interfacing our OpenGL application with our shader programs using uniforms.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 32<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/32_glm_matrices/index.php" class="tutLink" name="GLM Matrices">GLM Matrices</a><br>
+					</td>
+					<td class="tutLink">
+						We'll be using the GL Math library to help with matrix operations for modern OpenGL applications.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 33<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/33_multi-color_polygons_and_attributes/index.php" class="tutLink" name="Multi-Color Polygons and Attributes">Multi-Color Polygons and Attributes</a><br>
+					</td>
+					<td class="tutLink">
+						Using attributes we can have custom per-vertex variables in our shader to draw a polygon with per-vertex coloring.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 34<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/34_glsl_texturing/index.php" class="tutLink" name="GLSL Texturing">GLSL Texturing</a><br>
+					</td>
+					<td class="tutLink">
+						We'll finally use textures in our GLSL shader programs.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 35<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/35_glsl_font/index.php" class="tutLink" name="GLSL Font">GLSL Font</a><br>
+					</td>
+					<td class="tutLink">
+						We'll be using a GLSL shader program to render fonts.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						Lesson 36<br>
+						<a href="https://lazyfoo.net/tutorials/OpenGL/36_vertex_array_objects/index.php" class="tutLink" name="Vertex Array Objects">Vertex Array Objects</a><br>
+					</td>
+					<td class="tutLink">
+						We'll be binding all our vertex attributes to a single vertex array object.
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tutLink">
+						<a href="https://lazyfoo.net/tutorials/OpenGL/99_conclusion/index.php" class="tutLink" name="Conclusion">Conclusion</a><br>
+					</td>
+					<td class="tutLink">
+						Here's some additional tips to continue learning OpenGL.
+					</td>
+				</tr>
+			</tbody></table>
+			
+			<div class="tutFooter">
+				I am not claiming to know everything there is to know about 
+programming/C++/OpenGL, but I have gained knowledge from the OpenGL 
+projects I've worked on. These
+				tutorials are made to pass on the knowledge I gained to those just 
+starting out and to make OpenGL much less intimidating to beginners. I 
+try to keep my code and
+				tutorials as bug free as possible. If you find any errors please 
+report them to me. Suggestions are also welcome.<br>
+				<br>
+				So if you have any suggestions, comments, questions, bugs reports, 
+typos, or anything else you want to say about the tutorials, feel free 
+to
+				<a href="https://lazyfoo.net/contact.php" class="tutLink">contact me</a>.
+			</div>
+
+		</div>
+
+		<div class="footer">
+
+<div style="text-align: center;">
+<!--Facebook-->
+<span style="line-height: 10px;" class="fb-share-button fb_iframe_widget" data-href="http://lazyfoo.net/" data-type="button_count" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;href=http%3A%2F%2Flazyfoo.net%2F&amp;locale=en_US&amp;sdk=joey&amp;type=button_count"><span style="vertical-align: bottom; width: 89px; height: 20px;"><iframe name="f5d7ed4d7f7986" data-testid="fb:share_button Facebook Social Plugin" title="fb:share_button Facebook Social Plugin" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" style="border: medium none; visibility: visible; width: 89px; height: 20px;" src="OGL%20by%20Lazy%20Foo_files/share_button.html" class="" width="1000px" height="1000px" frameborder="0"></iframe></span></span>
+
+<!--Google+-->
+<div style="position: absolute; width: 450px; left: -10000px;" id="___plus_0"><iframe ng-non-bindable="" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position:absolute;top:-10000px;width:450px;margin:0px;border-style:none" tabindex="0" vspace="0" id="I0_1599635760727" name="I0_1599635760727" src="OGL%20by%20Lazy%20Foo_files/sharebutton.html" data-gapiattached="true" width="100%" frameborder="0"></iframe></div><g:plus action="share" annotation="bubble" height="20" href="http://lazyfoo.net/" data-gapiscan="true" data-onload="true" data-gapistub="true"></g:plus>
+
+<!--Twitter-->
+<iframe id="twitter-widget-0" scrolling="no" allowtransparency="true" allowfullscreen="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" style="position: static; visibility: visible; width: 60px; height: 20px;" title="Twitter Tweet Button" src="OGL%20by%20Lazy%20Foo_files/tweet_button.html" frameborder="0"></iframe>
+
+</div>
+<div class="nav">
+<a class="nav" href="https://discourse.libsdl.org/">SDL Forums</a>
+<a class="nav" href="https://lazyfoo.net/tutorials/SDL/index.php">SDL Tutorials</a>
+<a class="nav" href="https://lazyfoo.net/articles/index.php">Articles</a>
+<a class="nav" href="https://lazyfoo.net/tutorials/OpenGL/index.php">OpenGL Tutorials</a>
+<a class="nav" href="https://www.opengl.org/discussion_boards/forum.php">OpenGL Forums</a>
+<div class="ads">
+<script type="text/javascript"><!--
+google_ad_client = "pub-5880704953225255";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_type = "text_image";
+google_ad_channel ="";
+google_color_border = "6699CC";
+google_color_bg = "003366";
+google_color_link = "FFFFFF";
+google_color_url = "AECCEB";
+google_color_text = "AECCEB";
+//--></script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><a class="nav" href="https://lazyfoo.net/index.php">News</a>
+<a class="nav" href="https://lazyfoo.net/faq.php">FAQs</a>
+<a class="nav" href="https://lazyfoo.net/contact.php">Contact</a>
+<a class="nav" href="https://lazyfoo.net/donate.php">Donations</a>
+
+</div>
+<h6>
+Copyright Lazy Foo' Productions 2004-2020
+</h6>
+
+</div>
+	
+	
+
+<iframe scrolling="no" allowtransparency="true" src="OGL%20by%20Lazy%20Foo_files/widget_iframe.html" title="Twitter settings iframe" style="display: none;" frameborder="0"></iframe><iframe name="oauth2relay855924025" id="oauth2relay855924025" src="OGL%20by%20Lazy%20Foo_files/postmessageRelay.html" style="width: 1px; height: 1px; position: absolute; top: -100px;" tabindex="-1" aria-hidden="true"></iframe></body></html>

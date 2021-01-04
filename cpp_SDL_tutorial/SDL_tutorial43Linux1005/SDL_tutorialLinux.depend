@@ -1,0 +1,475 @@
+# depslib dependency file v1.0
+1598371362 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux/01_hello_SDL.cpp
+	"sdl_01.h"
+	"sdl_02.h"
+
+1598384686 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux/sdl_01.cpp
+	<stdio.h>
+	<SDL2/SDL.h>
+	"sdl_01.h"
+
+1598371055 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux/sdl_01.h
+
+1598384483 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux/sdl_02.cpp
+	<stdio.h>
+	"sdl_02.h"
+	"sdl_02init.h"
+	"sdl_02loadMedia.h"
+	"sdl_02close.h"
+
+1598371175 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux/sdl_02.h
+
+1598384470 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux/sdl_02init.h
+	<SDL2/SDL.h>
+
+1598384738 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux/sdl_02loadMedia.h
+
+1598384492 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux/sdl_02init.cpp
+	<SDL2/SDL.h>
+	"sdl_02init.h"
+
+1598383619 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux/sdl_02loadMedia.cpp
+	<stdio.h>
+	"sdl_00Global.h"
+	"sdl_02loadMedia.h"
+
+1598384487 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux/sdl_02close.cpp
+	<SDL2/SDL.h>
+	"sdl_02loadMedia.h"
+	"sdl_02close.h"
+
+1598384522 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux/sdl_02close.h
+
+1598384597 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux/sdl_00Global.h
+
+1598371362 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0825/01_hello_SDL.cpp
+	"sdl_01.h"
+	"sdl_02.h"
+
+1598371055 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0825/sdl_01.h
+
+1598371175 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0825/sdl_02.h
+
+1598384686 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0825/sdl_01.cpp
+	<stdio.h>
+	<SDL2/SDL.h>
+	"sdl_01.h"
+
+1598384483 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0825/sdl_02.cpp
+	<stdio.h>
+	"sdl_02.h"
+	"sdl_02init.h"
+	"sdl_02loadMedia.h"
+	"sdl_02close.h"
+
+1598384470 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0825/sdl_02init.h
+	<SDL2/SDL.h>
+
+1598384738 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0825/sdl_02loadMedia.h
+
+1598384522 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0825/sdl_02close.h
+
+1598384487 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0825/sdl_02close.cpp
+	<SDL2/SDL.h>
+	"sdl_02loadMedia.h"
+	"sdl_02close.h"
+
+1598384492 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0825/sdl_02init.cpp
+	<SDL2/SDL.h>
+	"sdl_02init.h"
+
+1598384767 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0825/sdl_02loadMedia.cpp
+	<SDL2/SDL.h>
+	<stdio.h>
+	"sdl_02loadMedia.h"
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0826/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1598455211 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0826/sdl_01.h
+	<SDL2/SDL.h>
+	<stdio.h>
+
+1598371175 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0826/sdl_02.h
+
+1598455061 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0826/sdl_01.cpp
+	"sdl_01.h"
+
+1598384483 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0826/sdl_02.cpp
+	<stdio.h>
+	"sdl_02.h"
+	"sdl_02init.h"
+	"sdl_02loadMedia.h"
+	"sdl_02close.h"
+
+1598384470 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0826/sdl_02init.h
+	<SDL2/SDL.h>
+
+1598384738 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0826/sdl_02loadMedia.h
+
+1598384522 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0826/sdl_02close.h
+
+1598384487 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0826/sdl_02close.cpp
+	<SDL2/SDL.h>
+	"sdl_02loadMedia.h"
+	"sdl_02close.h"
+
+1598384492 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0826/sdl_02init.cpp
+	<SDL2/SDL.h>
+	"sdl_02init.h"
+
+1598384767 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorialLinux0826/sdl_02loadMedia.cpp
+	<SDL2/SDL.h>
+	<stdio.h>
+	"sdl_02loadMedia.h"
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial04Linux0827/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1598537228 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial04Linux0827/sdl_01.h
+	<SDL2/SDL.h>
+	<stdio.h>
+	<string>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial04Linux0828/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1598537228 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial04Linux0828/sdl_01.h
+	<SDL2/SDL.h>
+	<stdio.h>
+	<string>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial04Linux0829/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1598792348 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial04Linux0829/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+
+1598792531 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial04Linux0829/sdl_01.cpp
+	"sdl_01.h"
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial04Linux0830/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1598792982 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial04Linux0830/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial08Linux0831/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1598903243 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial08Linux0831/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+	<cmath>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial09Linux0901/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1598903243 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial09Linux0901/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+	<cmath>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial09Linux0902/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1599035353 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial09Linux0902/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+	<cmath>
+
+1599035345 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial09Linux0902/sdl_01.cpp
+	"sdl_01.h"
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial11Linux0903/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1599060216 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial11Linux0903/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial12Linux0904/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1599239733 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial12Linux0904/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial13Linux0905/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1599377910 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial13Linux0905/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial14Linux0906/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1599378109 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial14Linux0906/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial15Linux0907/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1599466468 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial15Linux0907/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial16Linux0905/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1599592700 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial16Linux0905/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<stdio.h>
+	<string>
+	<cmath>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial17Linux0909/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1599634792 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial17Linux0909/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial18Linux0910/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1599766843 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial18Linux0910/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial19Linux0911/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1599814368 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial19Linux0911/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+	<cmath>
+
+1599766990 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial19Linux0911/sdl_01.cpp
+	"sdl_01.h"
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial20Linux0912/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1599974149 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial20Linux0912/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+	<cmath>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial21Linux0913/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1599974653 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial21Linux0913/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+	<SDL2/SDL_mixer.h>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial22Linux0914/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1600078870 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial22Linux0914/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<stdio.h>
+	<string>
+	<SDL2/SDL_mixer.h>
+	<sstream>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial24Linux0916/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1600248258 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial24Linux0916/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<stdio.h>
+	<string>
+	<sstream>
+
+1600078744 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial24Linux0916/sdl_01.cpp
+	"sdl_01.h"
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial27Linux0919/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1600543219 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial27Linux0919/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+
+1600541670 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial27Linux0919/sdl_01.cpp
+	"sdl_01.h"
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial28Linux0920/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1600588647 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial28Linux0920/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+	<vector>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial29Linux0921/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1600707797 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial29Linux0921/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial30Linux0922/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1600783016 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial30Linux0922/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial31Linux0923/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1600879696 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial31Linux0923/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial32Linux0924/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1600926995 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial32Linux0924/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<stdio.h>
+	<string>
+	<sstream>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial33Linux0925/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1601016304 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial33Linux0925/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<stdio.h>
+	<string>
+	<sstream>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial34Linux0926/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1601107150 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial34Linux0926/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<stdio.h>
+	<string>
+	<sstream>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial35Linux0927/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1601222217 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial35Linux0927/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+	<sstream>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial36Linux0928/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1601239682 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial36Linux0928/sdl_01.h
+	<SDL2/SDL.h>
+	<stdio.h>
+	<string>
+	<sstream>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial37Linux0929/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1601372084 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial37Linux0929/sdl_01.h
+	<SDL2/SDL.h>
+	<stdio.h>
+	<string>
+	<sstream>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial38Linux0930/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1601539982 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial38Linux0930/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial39Linux1001/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1601540369 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial39Linux1001/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+	<fstream>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial40Linux1002/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1601540826 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial40Linux1002/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+
+1598454730 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial43Linux1005/01_hello_SDL.cpp
+	"sdl_01.h"
+
+1602312118 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/SDL_tutorial/SDL_tutorial43Linux1005/sdl_01.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<string>
+

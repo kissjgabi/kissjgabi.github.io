@@ -1,0 +1,149 @@
+# depslib dependency file v1.0
+1357021327 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux/LUtil.cpp
+	"LUtil.h"
+
+1357021327 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux/LUtil.h
+	"LOpenGL.h"
+	<stdio.h>
+
+1357021327 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux/LOpenGL.h
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+
+1357021327 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux/main.cpp
+	"LUtil.h"
+
+1598376807 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux02/LUtil.cpp
+	"LUtil.h"
+
+1598376942 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux02/LUtil.h
+	"LOpenGL.h"
+	<stdio.h>
+
+1598376822 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux02/LOpenGL.h
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+
+1598376774 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux02/main.cpp
+	"LUtil.h"
+
+1598376953 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux03/LUtil.cpp
+	"LUtil.h"
+
+1598376942 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux03/LUtil.h
+	"LOpenGL.h"
+	<stdio.h>
+
+1598376822 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux03/LOpenGL.h
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+
+1598376774 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux03/main.cpp
+	"LUtil.h"
+
+1598549014 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux04/LUtil.cpp
+	"LUtil.h"
+
+1598548990 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux04/LUtil.h
+	"LOpenGL.h"
+	<stdio.h>
+
+1598549168 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux04/LOpenGL.h
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+
+1598549031 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux04/main.cpp
+	"LUtil.h"
+
+1598633353 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux05/LUtil.cpp
+	"LUtil.h"
+	"LTexture.h"
+
+1598633389 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux05/LUtil.h
+	"LOpenGL.h"
+	<stdio.h>
+
+1598633373 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux05/LOpenGL.h
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+
+1598633380 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux05/LTexture.h
+	"LOpenGL.h"
+	<stdio.h>
+
+1598633334 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux05/main.cpp
+	"LUtil.h"
+
+1598633364 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux05/LTexture.cpp
+	"LTexture.h"
+
+1598797098 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux06/LTexture.cpp
+	"LTexture.h"
+	<IL/il.h>
+
+1598796777 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux06/LTexture.h
+	"LOpenGL.h"
+	<stdio.h>
+	<string>
+
+1598796752 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux06/LOpenGL.h
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+
+1598798282 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux06/LUtil.cpp
+	"LUtil.h"
+	<IL/il.h>
+	<IL/ilu.h>
+	"LTexture.h"
+
+1598796803 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux06/LUtil.h
+	"LOpenGL.h"
+	<stdio.h>
+
+1598796882 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux06/main.cpp
+	"LUtil.h"
+
+1598800112 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux07/LUtil.cpp
+	"LUtil.h"
+	<IL/il.h>
+	<IL/ilu.h>
+	"LTexture.h"
+
+1598800100 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux07/LUtil.h
+	"LOpenGL.h"
+	<stdio.h>
+
+1598799999 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux07/LOpenGL.h
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+
+1598800042 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux07/LTexture.h
+	"LOpenGL.h"
+	<stdio.h>
+	<string>
+	"LFRect.h"
+
+1598800028 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux07/LFRect.h
+	"LOpenGL.h"
+
+1598800118 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux07/main.cpp
+	"LUtil.h"
+
+1598800107 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux07/LTexture.cpp
+	"LTexture.h"
+	<IL/il.h>
+

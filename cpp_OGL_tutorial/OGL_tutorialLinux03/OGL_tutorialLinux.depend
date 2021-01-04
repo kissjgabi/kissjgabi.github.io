@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1357021327 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux/LUtil.cpp
+	"LUtil.h"
+
+1357021327 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux/LUtil.h
+	"LOpenGL.h"
+	<stdio.h>
+
+1357021327 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux/LOpenGL.h
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+
+1357021327 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux/main.cpp
+	"LUtil.h"
+
+1598376807 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux02/LUtil.cpp
+	"LUtil.h"
+
+1598376942 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux02/LUtil.h
+	"LOpenGL.h"
+	<stdio.h>
+
+1598376822 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux02/LOpenGL.h
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+
+1598376774 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux02/main.cpp
+	"LUtil.h"
+
+1598376953 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux03/LUtil.cpp
+	"LUtil.h"
+
+1598376942 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux03/LUtil.h
+	"LOpenGL.h"
+	<stdio.h>
+
+1598376822 /media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux03/LOpenGL.h
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+
+1598376774 source:/media/kissjgabi/m64group-256gb1/000CodeBlockCpp/cPPfirst/OGL_tutorialLinux03/main.cpp
+	"LUtil.h"
+
