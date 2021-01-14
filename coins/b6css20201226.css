@@ -62,7 +62,4 @@ canvas {
 .bottom {
     bottom: 0;
 }
-.back:hover, .next:hover {
-    -webkit-filter: brightness(128%) contrast(110%);
-}
 
