@@ -294,10 +294,12 @@ body {
 }
 
 .boardsquare {
+    padding: 0.5vmin;
     color: transparent;
     font-size: 5vmin;
     font-weight: 900;
     background-color: transparent;
+    border: 2px solid seagreen;
     opacity: 0.75;
     z-index: 20;
 }
