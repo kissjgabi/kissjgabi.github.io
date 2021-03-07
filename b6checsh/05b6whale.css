@@ -54,10 +54,11 @@ body {
     width: var(--boardsquare-size);
     height: var(--boardsquare-size);
     background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.2);
     background-size: var(--chesspiece-size);
     background-position: center;
     background-clip: content-box;
-    border: 0.5vmin solid sandybrown;
+    border: 2vmin solid transparent;
     border-radius: 50%;
     transition: 0.2s;
 }
