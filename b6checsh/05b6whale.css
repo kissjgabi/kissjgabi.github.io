@@ -147,12 +147,12 @@ body {
 }
 
 #whiteclock {
-    top: calc(2 * var(--boardsquare-size));
+    bottom: calc(50vh - 6.5 * var(--boardsquare-size));
     color: white;
 }
 
 #blackclock {
-    bottom: calc(2 * var(--boardsquare-size));
+    top: calc(50vh - 6.5 * var(--boardsquare-size));
     color: black;
 }
 
