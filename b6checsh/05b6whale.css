@@ -59,8 +59,8 @@ body {
 .chesstable {
     width: calc(10 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
     height: calc(10 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
-    border: var(--boardsquare-size) solid chocolate;
-    opacity: 0.25;
+    background-color: chocolate;
+    opacity: 0.125;
     transition: 0.75s;
 }
 
@@ -110,13 +110,7 @@ body {
 .chessboard:hover~.chesstable,
 .chesspieces:hover~.chesstable,
 .playground:hover~.chesstable,
-.playground:hover~.chessboard,
-.chessboard:active,
-.chesspieces:active~.chessboard,
-.chessboard:active~.chesstable,
-.chesspieces:active.chesstable,
-.playground:active~.chesstable,
-.playground:active~.chessboard {
+.playground:hover~.chessboard {
     opacity: 1;
 }
 
