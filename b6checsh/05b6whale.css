@@ -16,10 +16,10 @@
     --black-bishop-image: url('Chess_bdt45.svg');
     --black-queen-image: url('Chess_qdt45.svg');
     --black-king-image: url('Chess_kdt45.svg');
-    --boardsquare-size: 8vmin;
-    --boardborder-size: 7vmin;
+    --boardsquare-size: 6.4vmin;
+    --boardborder-size: calc(7 * var(--boardsquare-size) / 8);
     --chesspiece-size: calc(7 * var(--boardsquare-size) / 8);
-    --half-size: 0.5vmin;
+    --half-size: calc(var(--boardsquare-size) / 16);
     --hsquare-color: rgba(64, 160, 192, 0.75);
     --area-color-both: rgba(192, 0, 0, 0.25);
     --area-color-white: rgba(224, 224, 224, 0.25);
