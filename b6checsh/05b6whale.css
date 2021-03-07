@@ -260,6 +260,8 @@ body {
 
 .boardsquare,
 .chesspiece {
+    display: flex;
+    align-self: center;
     position: absolute;
     display: flex;
     justify-content: center;
