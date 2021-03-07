@@ -1,0 +1,63 @@
+@import url("https://use.fontawesome.com/releases/v5.1.0/css/all.css") ;
+@import url("https://use.fontawesome.com/releases/v5.1.0/css/v4-shims.css") ;
+@import url("https://fonts.googleapis.com/css?family=Rubik") ;
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime");
+:root {
+    --body-color: #349aab;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+}
+
+*{
+	outline:0;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+*::before{
+	outline:0;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+*::after{
+	outline:0;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--body-color);
+    font-family: Rubik;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+button:hover {
+    cursor: pointer;
+}
