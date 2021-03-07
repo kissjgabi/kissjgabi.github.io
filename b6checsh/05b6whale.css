@@ -48,11 +48,20 @@ body {
     background-blend-mode: screen, luminosity;
 }
 
+.chesstable,
 .chessboard {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.chesstable {
+    width: calc(10 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
+    height: calc(10 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
+    border: var(--boardsquare-size) solid chocolate;
+    opacity: 0.25;
+    transition: 0.75s;
 }
 
 .chessboard {
