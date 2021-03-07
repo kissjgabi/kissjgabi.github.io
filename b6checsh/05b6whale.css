@@ -56,6 +56,8 @@ body {
     height: var(--boardsquare-size);
     text-align: center;
     line-height: calc(var(--boardsquare-size) - 4vmin);
+    color: rgba(64, 160, 192, 0.75);
+    /*transparent*/
     background-repeat: no-repeat;
     background-color: transparent;
     /* rgba(255, 255, 255, 0.2); */
