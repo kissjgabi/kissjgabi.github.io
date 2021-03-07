@@ -53,6 +53,8 @@ body {
     position: fixed;
     width: var(--boardsquare-size);
     height: var(--boardsquare-size);
+    text-align: center;
+    line-height: calc(var(--boardsquare-size) - 4vmin);
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0.2);
     background-size: var(--chesspiece-size);
