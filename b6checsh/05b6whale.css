@@ -128,380 +128,380 @@ body {
 
 .highlight:nth-child(3),
 .boardsquare:nth-child(3) {
-    transform: translate(-150%, 300%);
-    -webkit-transform: translate(-150%, 300%);
+    transform: translate(-200%, 300%);
+    -webkit-transform: translate(-200%, 300%);
 }
 
 .highlight:nth-child(4),
 .boardsquare:nth-child(4) {
-    transform: translate(-50%, 350%);
-    -webkit-transform: translate(-50%, 300%);
+    transform: translate(-100%, 30%);
+    -webkit-transform: translate(-100%, 300%);
 }
 
 .highlight:nth-child(5),
 .boardsquare:nth-child(5) {
-    transform: translate(50%, 300%);
-    -webkit-transform: translate(50%, 300%);
+    transform: translate(0, 300%);
+    -webkit-transform: translate(0, 300%);
 }
 
 .highlight:nth-child(7),
 .boardsquare:nth-child(6) {
-    transform: translate(150%, 300%);
-    -webkit-transform: translate(150%, 300%);
+    transform: translate(100%, 300%);
+    -webkit-transform: translate(100%, 300%);
 }
 
 .highlight:nth-child(7),
 .boardsquare:nth-child(7) {
-    transform: translate(250%, 300%);
-    -webkit-transform: translate(250%, 300%);
+    transform: translate(200%, 300%);
+    -webkit-transform: translate(200%, 300%);
 }
 
 .highlight:nth-child(8),
 .boardsquare:nth-child(8) {
-    transform: translate(350%, 300%);
-    -webkit-transform: translate(350%, 300%);
+    transform: translate(300%, 300%);
+    -webkit-transform: translate(300%, 300%);
 }
 
 
 .highlight:nth-child(9),
 .boardsquare:nth-child(9) {
-    transform: translate(-350%, 250%);
-    -webkit-transform: translate(-350%, 250%);
+    transform: translate(-400%, 200%);
+    -webkit-transform: translate(-400%, 200%);
 }
 
 .highlight:nth-child(10),
 .boardsquare:nth-child(10) {
-    transform: translate(-250%, 250%);
-    -webkit-transform: translate(-250%, 250%);
+    transform: translate(-300%, 200%);
+    -webkit-transform: translate(-300%, 200%);
 }
 
 .highlight:nth-child(11),
 .boardsquare:nth-child(11) {
-    transform: translate(-150%, 250%);
-    -webkit-transform: translate(-150%, 250%);
+    transform: translate(-200%, 200%);
+    -webkit-transform: translate(-200%, 200%);
 }
 
 .highlight:nth-child(12),
 .boardsquare:nth-child(12) {
-    transform: translate(-50%, 250%);
-    -webkit-transform: translate(-50%, 250%);
+    transform: translate(-100%, 200%);
+    -webkit-transform: translate(-100%, 200%);
 }
 
 .highlight:nth-child(13),
 .boardsquare:nth-child(13) {
-    transform: translate(50%, 250%);
-    -webkit-transform: translate(50%, 250%);
+    transform: translate(0%, 200%);
+    -webkit-transform: translate(0%, 200%);
 }
 
 .highlight:nth-child(14),
 .boardsquare:nth-child(14) {
-    transform: translate(150%, 250%);
-    -webkit-transform: translate(150%, 250%);
+    transform: translate(100%, 200%);
+    -webkit-transform: translate(100%, 200%);
 }
 
 .highlight:nth-child(15),
 .boardsquare:nth-child(15) {
-    transform: translate(250%, 250%);
-    -webkit-transform: translate(250%, 250%);
+    transform: translate(200%, 200%);
+    -webkit-transform: translate(200%, 200%);
 }
 
 .highlight:nth-child(16),
 .boardsquare:nth-child(16) {
-    transform: translate(350%, 250%);
-    -webkit-transform: translate(350%, 250%);
+    transform: translate(300%, 200%);
+    -webkit-transform: translate(300%, 200%);
 }
 
 
 .highlight:nth-child(17),
 .boardsquare:nth-child(17) {
-    transform: translate(-350%, 150%);
-    -webkit-transform: translate(-350%, 150%);
+    transform: translate(-400%, 100%);
+    -webkit-transform: translate(-400%, 100%);
 }
 
 .highlight:nth-child(18),
 .boardsquare:nth-child(18) {
-    transform: translate(-250%, 150%);
-    -webkit-transform: translate(-250%, 150%);
+    transform: translate(-300%, 100%);
+    -webkit-transform: translate(-300%, 100%);
 }
 
 .highlight:nth-child(19),
 .boardsquare:nth-child(19) {
-    transform: translate(-150%, 150%);
-    -webkit-transform: translate(-150%, 150%);
+    transform: translate(-200%, 100%);
+    -webkit-transform: translate(-200%, 100%);
 }
 
 .highlight:nth-child(20),
 .boardsquare:nth-child(20) {
-    transform: translate(-50%, 150%);
-    -webkit-transform: translate(-50%, 150%);
+    transform: translate(-100%, 100%);
+    -webkit-transform: translate(-100%, 100%);
 }
 
 .highlight:nth-child(21),
 .boardsquare:nth-child(21) {
-    transform: translate(50%, 150%);
-    -webkit-transform: translate(50%, 150%);
+    transform: translate(0%, 100%);
+    -webkit-transform: translate(0%, 100%);
 }
 
 .highlight:nth-child(22),
 .boardsquare:nth-child(22) {
-    transform: translate(150%, 150%);
-    -webkit-transform: translate(150%, 150%);
+    transform: translate(100%, 100%);
+    -webkit-transform: translate(100%, 100%);
 }
 
 .highlight:nth-child(23),
 .boardsquare:nth-child(23) {
-    transform: translate(250%, 150%);
-    -webkit-transform: translate(250%, 150%);
+    transform: translate(200%, 100%);
+    -webkit-transform: translate(200%, 100%);
 }
 
 .highlight:nth-child(24),
 .boardsquare:nth-child(24) {
-    transform: translate(350%, 150%);
-    -webkit-transform: translate(350%, 150%);
+    transform: translate(300%, 100%);
+    -webkit-transform: translate(300%, 100%);
 }
 
 
 .highlight:nth-child(25),
 .boardsquare:nth-child(25) {
-    transform: translate(-350%, 50%);
-    -webkit-transform: translate(-350%, 50%);
+    transform: translate(-400%, 0%);
+    -webkit-transform: translate(-400%, 0%);
 }
 
 .highlight:nth-child(26),
 .boardsquare:nth-child(26) {
-    transform: translate(-250%, 50%);
-    -webkit-transform: translate(-250%, 50%);
+    transform: translate(-300%, 0%);
+    -webkit-transform: translate(-300%, 0%);
 }
 
 .highlight:nth-child(27),
 .boardsquare:nth-child(27) {
-    transform: translate(-150%, 50%);
-    -webkit-transform: translate(-150%, 50%);
+    transform: translate(-200%, 0%);
+    -webkit-transform: translate(-200%, 0%);
 }
 
 .highlight:nth-child(28),
 .boardsquare:nth-child(28) {
-    transform: translate(-50%, 50%);
-    -webkit-transform: translate(-50%, 50%);
+    transform: translate(-100%, 0%);
+    -webkit-transform: translate(-100%, 0%);
 }
 
 .highlight:nth-child(29),
 .boardsquare:nth-child(29) {
-    transform: translate(50%, 50%);
-    -webkit-transform: translate(50%, 50%);
+    transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
 }
 
 .highlight:nth-child(30),
 .boardsquare:nth-child(30) {
-    transform: translate(150%, 50%);
-    -webkit-transform: translate(150%, 50%);
+    transform: translate(100%, 0%);
+    -webkit-transform: translate(100%, 0%);
 }
 
 .highlight:nth-child(31),
 .boardsquare:nth-child(31) {
-    transform: translate(250%, 50%);
-    -webkit-transform: translate(250%, 50%);
+    transform: translate(200%, 0%);
+    -webkit-transform: translate(200%, 0%);
 }
 
 .highlight:nth-child(32),
 .boardsquare:nth-child(32) {
-    transform: translate(350%, 50%);
-    -webkit-transform: translate(350%, 50%);
+    transform: translate(300%, 0%);
+    -webkit-transform: translate(300%, 0%);
 }
 
 
 .highlight:nth-child(33),
 .boardsquare:nth-child(33) {
-    transform: translate(-350%, -50%);
-    -webkit-transform: translate(-350%, -50%);
+    transform: translate(-400%, -100%);
+    -webkit-transform: translate(-400%, -100%);
 }
 
 .highlight:nth-child(34),
 .boardsquare:nth-child(34) {
-    transform: translate(-250%, -50%);
-    -webkit-transform: translate(-250%, -50%);
+    transform: translate(-300%, -100%);
+    -webkit-transform: translate(-300%, -100%);
 }
 
 .highlight:nth-child(35),
 .boardsquare:nth-child(35) {
-    transform: translate(-150%, -50%);
-    -webkit-transform: translate(-150%, -50%);
+    transform: translate(-200%, -100%);
+    -webkit-transform: translate(-200%, -100%);
 }
 
 .highlight:nth-child(36),
 .boardsquare:nth-child(36) {
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-100%, -100%);
+    -webkit-transform: translate(-100%, -100%);
 }
 
 .highlight:nth-child(37),
 .boardsquare:nth-child(37) {
-    transform: translate(50%, -50%);
-    -webkit-transform: translate(50%, -50%);
+    transform: translate(0%, -100%);
+    -webkit-transform: translate(0%, -100%);
 }
 
 .highlight:nth-child(38),
 .boardsquare:nth-child(38) {
-    transform: translate(150%, -50%);
-    -webkit-transform: translate(150%, -50%);
+    transform: translate(100%, -100%);
+    -webkit-transform: translate(100%, -100%);
 }
 
 .highlight:nth-child(39),
 .boardsquare:nth-child(39) {
-    transform: translate(250%, -50%);
-    -webkit-transform: translate(250%, -50%);
+    transform: translate(200%, -100%);
+    -webkit-transform: translate(200%, -100%);
 }
 
 .highlight:nth-child(40),
 .boardsquare:nth-child(40) {
-    transform: translate(350%, -50%);
-    -webkit-transform: translate(350%, -50%);
+    transform: translate(300%, -100%);
+    -webkit-transform: translate(300%, -100%);
 }
 
 
 .highlight:nth-child(41),
 .boardsquare:nth-child(41) {
-    transform: translate(-350%, -150%);
-    -webkit-transform: translate(-350%, -150%);
+    transform: translate(-400%, -200%);
+    -webkit-transform: translate(-400%, -200%);
 }
 
 .highlight:nth-child(42),
 .boardsquare:nth-child(42) {
-    transform: translate(-250%, -150%);
-    -webkit-transform: translate(-250%, -150%);
+    transform: translate(-300%, -200%);
+    -webkit-transform: translate(-300%, -200%);
 }
 
 .highlight:nth-child(43),
 .boardsquare:nth-child(43) {
-    transform: translate(-150%, -150%);
-    -webkit-transform: translate(-150%, -150%);
+    transform: translate(-200%, -200%);
+    -webkit-transform: translate(-200%, -200%);
 }
 
 .highlight:nth-child(44),
 .boardsquare:nth-child(44) {
-    transform: translate(-50%, -150%);
-    -webkit-transform: translate(-50%, -150%);
+    transform: translate(-100%, -200%);
+    -webkit-transform: translate(-100%, -200%);
 }
 
 .highlight:nth-child(45),
 .boardsquare:nth-child(45) {
-    transform: translate(50%, -150%);
-    transform: translate(50%, -150%);
+    transform: translate(0%, -200%);
+    transform: translate(0%, -200%);
 }
 
 .highlight:nth-child(46),
 .boardsquare:nth-child(46) {
-    transform: translate(150%, -150%);
-    -webkit-transform: translate(150%, -150%);
+    transform: translate(100%, -200%);
+    -webkit-transform: translate(100%, -200%);
 }
 
 .highlight:nth-child(47),
 .boardsquare:nth-child(47) {
-    transform: translate(250%, -150%);
-    -webkit-transform: translate(250%, -150%);
+    transform: translate(200%, -200%);
+    -webkit-transform: translate(200%, -200%);
 }
 
 .highlight:nth-child(48),
 .boardsquare:nth-child(48) {
-    transform: translate(350%, -150%);
-    -webkit-transform: translate(350%, -150%);
+    transform: translate(300%, -200%);
+    -webkit-transform: translate(300%, -200%);
 }
 
 
 .highlight:nth-child(49),
 .boardsquare:nth-child(49) {
-    transform: translate(-350%, -250%);
-    -webkit-transform: translate(-350%, -250%);
+    transform: translate(-400%, -300%);
+    -webkit-transform: translate(-400%, -300%);
 }
 
 .highlight:nth-child(50),
 .boardsquare:nth-child(50) {
-    transform: translate(-250%, -250%);
-    -webkit-transform: translate(-250%, -250%);
+    transform: translate(-300%, -300%);
+    -webkit-transform: translate(-300%, -300%);
 }
 
 .highlight:nth-child(51),
 .boardsquare:nth-child(51) {
-    transform: translate(-150%, -250%);
-    -webkit-transform: translate(-150%, -250%);
+    transform: translate(-200%, -300%);
+    -webkit-transform: translate(-200%, -300%);
 }
 
 .highlight:nth-child(52),
 .boardsquare:nth-child(52) {
-    transform: translate(-50%, -250%);
-    -webkit-transform: translate(-50%, -250%);
+    transform: translate(-100%, -300%);
+    -webkit-transform: translate(-100%, -300%);
 }
 
 .highlight:nth-child(53),
 .boardsquare:nth-child(53) {
-    transform: translate(50%, -250%);
-    -webkit-transform: translate(50%, -250%);
+    transform: translate(0%, -300%);
+    -webkit-transform: translate(0%, -300%);
 }
 
 .highlight:nth-child(54),
 .boardsquare:nth-child(54) {
-    transform: translate(150%, -250%);
-    -webkit-transform: translate(150%, -250%);
+    transform: translate(100%, -300%);
+    -webkit-transform: translate(100%, -300%);
 }
 
 .highlight:nth-child(55),
 .boardsquare:nth-child(55) {
-    transform: translate(250%, -250%);
-    -webkit-transform: translate(250%, -250%);
+    transform: translate(200%, -300%);
+    -webkit-transform: translate(200%, -300%);
 }
 
 .highlight:nth-child(56),
 .boardsquare:nth-child(56) {
-    transform: translate(350%, -250%);
-    -webkit-transform: translate(350%, -250%);
+    transform: translate(300%, -300%);
+    -webkit-transform: translate(300%, -300%);
 }
 
 .highlight:nth-child(57),
 .boardsquare:nth-child(57) {
-    transform: translate(-350%, -350%);
-    -webkit-transform: translate(-350%, -350%);
+    transform: translate(-400%, -400%);
+    -webkit-transform: translate(-400%, -400%);
 }
 
 .highlight:nth-child(58),
 .boardsquare:nth-child(58) {
-    transform: translate(-250%, -350%);
-    -webkit-transform: translate(-250%, -350%);
+    transform: translate(-300%, -400%);
+    -webkit-transform: translate(-300%, -400%);
 }
 
 .highlight:nth-child(59),
 .boardsquare:nth-child(59) {
-    transform: translate(-150%, -350%);
-    -webkit-transform: translate(-150%, -350%);
+    transform: translate(-200%, -400%);
+    -webkit-transform: translate(-200%, -400%);
 }
 
 .highlight:nth-child(60),
 .boardsquare:nth-child(60) {
-    transform: translate(-50%, -350%);
-    -webkit-transform: translate(-50%, -350%);
+    transform: translate(-100%, -400%);
+    -webkit-transform: translate(-100%, -400%);
 }
 
 .highlight:nth-child(61),
 .boardsquare:nth-child(61) {
-    transform: translate(50%, -350%);
-    -webkit-transform: translate(50%, -350%);
+    transform: translate(0%, -400%);
+    -webkit-transform: translate(0%, -400%);
 }
 
 .highlight:nth-child(62),
 .boardsquare:nth-child(62) {
-    transform: translate(150%, -350%);
-    -webkit-transform: translate(150%, -350%);
+    transform: translate(100%, -400%);
+    -webkit-transform: translate(100%, -400%);
 }
 
 .highlight:nth-child(63),
 .boardsquare:nth-child(63) {
-    transform: translate(250%, -350%);
-    -webkit-transform: translate(250%, -350%);
+    transform: translate(200%, -400%);
+    -webkit-transform: translate(200%, -400%);
 }
 
 .highlight:nth-child(64),
 .boardsquare:nth-child(64) {
-    transform: translate(350%, -350%);
-    -webkit-transform: translate(350%, -350%);
+    transform: translate(300%, -400%);
+    -webkit-transform: translate(300%, -400%);
 }
 
 /* */
