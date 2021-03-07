@@ -41,11 +41,6 @@
 
 body {
     height: 100vh;
-    background-image: var(--body-image);
-    background-repeat: no-repeat;
-    background-position: center calc(50vh - 4 * var(--boardsquare-size) - (var(--boardborder-size)));
-    background-size: calc(8 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
-    background-blend-mode: screen, luminosity;
 }
 
 .chesstable,
@@ -59,8 +54,12 @@ body {
 .chesstable {
     width: calc(10 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
     height: calc(10 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
-    background-color: chocolate;
-    opacity: 0.125;
+    background-color: var(--body-color);
+    background-image: var(--body-image);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: calc(8 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
+    background-blend-mode: screen, luminosity;
     transition: 0.75s;
 }
 
@@ -70,7 +69,8 @@ body {
     background-color: var(--body-color);
     background-image: var(--body-image);
     box-shadow: var(--table-shadow);
-    opacity: 0.05;
+    border-width: 1px; 
+    opacity: 0;
     transition: 0.75s;
     z-index: 10;
 }
@@ -126,6 +126,7 @@ body {
 .chesspieces:hover~.chesstable,
 .playground:hover~.chesstable,
 .playground:hover~.chessboard {
+    background-color: chocolate;
     opacity: 1;
 }
 
