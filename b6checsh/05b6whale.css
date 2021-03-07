@@ -70,7 +70,7 @@ body {
     background-color: var(--body-color);
     background-image: var(--body-image);
     box-shadow: var(--table-shadow);
-    opacity: 0;
+    opacity: 0.05;
     transition: 0.75s;
     z-index: 10;
 }
@@ -100,9 +100,24 @@ body {
     border: 0.25vmin solid transparent;
 }
 
+.chesspiece.follows:hover {
+    background-color: var(--highlight-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.chesspiece.active {
+    cursor: default;
+}
+
 .hsquare,
 .boardsquare {
     border: 2vmin solid transparent;
+}
+
+.chessboard:hover,
+.boardsquare:hover {
+    cursor: default;
 }
 
 .chessboard:hover,
