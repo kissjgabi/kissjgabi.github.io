@@ -3,7 +3,9 @@
 :root {
     --body-image: url('b6chessBoard.svg');
     --image-body: url('b6boardChess.svg');
-    --table-shadow: 10px 10px 30px 12px rgb(20, 32, 54);
+    --board-shadow: 10px 10px 30px 12px rgb(20, 32, 54);
+    --table-shadow: 4px 4px 10px 6px rgba(40, 64, 108, 0.5);
+    --table-color: rgba(52, 154, 171, 0.75);
     --white-pawn-image: url('Chess_plt45.svg');
     --white-rook-image: url('Chess_rlt45.svg');
     --white-knight-image: url('Chess_nlt45.svg');
@@ -52,14 +54,15 @@ body {
 }
 
 .chesstable {
-    width: calc(10 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
-    height: calc(10 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
-    background-color: var(--body-color);
+    width: calc(12 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
+    height: calc(12 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
+    background-color: var(--table-color);
     background-image: var(--body-image);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: calc(8 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
     background-blend-mode: screen, luminosity;
+    box-shadow: var(--table-shadow);
     transition: 0.75s;
 }
 
@@ -68,7 +71,7 @@ body {
     height: calc(8 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
     background-color: var(--body-color);
     background-image: var(--body-image);
-    box-shadow: var(--table-shadow);
+    box-shadow: var(--board-shadow);
     border-width: 1px; 
     opacity: 0;
     transition: 0.75s;
@@ -129,7 +132,7 @@ body {
 .chesspieces:hover~.chesstable,
 .playground:hover~.chesstable,
 .playground:hover~.chessboard {
-    background-color: chocolate;
+    background-color: rgba(210, 105, 30, 0.75);
     opacity: 1;
 }
 
