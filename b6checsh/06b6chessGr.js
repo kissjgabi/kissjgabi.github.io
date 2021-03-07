@@ -4,6 +4,17 @@ var frameHeight = window.innerHeight;
 document.documentElement.style.setProperty('--innerwidth', frameWidth + "px");
 document.documentElement.style.setProperty('--innerheight', frameHeight + "px");
 
+
+window.addEventListener('resize', event => {
+  console.log(event.type);
+  frameWidth = window.innerWidth;
+  frameHeight = window.innerHeight;
+  document.documentElement.style.setProperty('--innerwidth', frameWidth + "px");
+  document.documentElement.style.setProperty('--innerheight', frameHeight + "px");
+
+})
+
+
 let startColumnCode = 'a'.charCodeAt(0);
 let columnSignsName = "columnSigns";
 
