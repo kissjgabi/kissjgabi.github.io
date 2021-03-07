@@ -294,12 +294,11 @@ body {
 }
 
 .boardsquare {
-    padding: 0.5vmin;
     color: transparent;
     font-size: 5vmin;
     font-weight: 900;
-    background-color: transparent;
-    border: 2px solid seagreen;
+    background-color: wheat;
+    border: 2vmin solid seagreen;
     opacity: 0.75;
     z-index: 20;
 }
@@ -435,8 +434,8 @@ body {
 
 .highlight:nth-child(7),
 .boardsquare:nth-child(7) {
-    transform: translate(150%, 350%);
-    -webkit-transform: translate(150%, 350%);
+    transform: translate(250%, 350%);
+    -webkit-transform: translate(250%, 350%);
 }
 
 .highlight:nth-child(8),
