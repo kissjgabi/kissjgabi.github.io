@@ -51,6 +51,15 @@ body {
 .boardsquare,
 .chesspiece {
     position: fixed;
+    width: var(--boardsquare-size);
+    height: var(--boardsquare-size);
+    background-repeat: no-repeat;
+    background-size: var(--chesspiece-size);
+    background-position: center;
+    background-clip: content-box;
+    border: 0.5vmin solid sandybrown;
+    border-radius: 50%;
+    transition: 0.2s;
 }
 
 /* */
