@@ -1,6 +1,9 @@
 var frameWidth = window.innerWidth;
 var frameHeight = window.innerHeight;
 
+document.documentElement.style.setProperty('--innerwidth', frameWidth + "px");
+document.documentElement.style.setProperty('--innerheight', frameHeight + "px");
+
 let startColumnCode = 'a'.charCodeAt(0);
 let columnSignsName = "columnSigns";
 

@@ -22,6 +22,8 @@
     --boardborder-size: calc(7 * var(--boardsquare-size) / 8);
     --chesspiece-size: calc(7 * var(--boardsquare-size) / 8);
     --half-size: calc(var(--boardsquare-size) / 16);
+    --innerheight: 100vh;
+    --innerwidth: 100vw;
     --hsquare-color: rgba(64, 160, 192, 0.75);
     --area-color-both: rgba(192, 0, 0, 0.25);
     --area-color-white: rgba(224, 224, 224, 0.25);
@@ -147,12 +149,12 @@ body {
 }
 
 #whiteclock {
-    bottom: calc(50vh - 6.5 * var(--boardsquare-size));
+    bottom: calc(var(--innerheight) / 2 - 6.5 * var(--boardsquare-size));
     color: white;
 }
 
 #blackclock {
-    top: calc(50vh - 6.5 * var(--boardsquare-size));
+    top: calc(var(--innerheight) / 2 - 6.5 * var(--boardsquare-size));
     color: black;
 }
 
