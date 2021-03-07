@@ -48,6 +48,23 @@ body {
     background-blend-mode: screen, luminosity;
 }
 
+.chessboard {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.chessboard {
+    width: calc(8 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
+    height: calc(8 * var(--boardsquare-size) + 2 * (var(--boardborder-size)));
+    background-color: var(--body-color);
+    background-image: var(--body-image);
+    box-shadow: var(--table-shadow);
+    opacity: 0;
+    transition: 0.75s;
+}
+
 .hsquare,
 .boardsquare,
 .chesspiece {
@@ -75,6 +92,15 @@ body {
 .hsquare,
 .boardsquare {
     border: 2vmin solid transparent;
+}
+
+.chessboard:hover,
+.chesspieces:hover~.chessboard,
+.chessboard:hover~.chesstable,
+.chesspieces:hover~.chesstable,
+.playground:hover~.chesstable,
+.playground:hover~.chessboard {
+    opacity: 1;
 }
 
 /* */
