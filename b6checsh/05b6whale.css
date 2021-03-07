@@ -412,38 +412,38 @@ body {
 
 .highlight:nth-child(3),
 .boardsquare:nth-child(3) {
-    transform: translate(-150%, 350%);
-    -webkit-transform: translate(-150%, 350%);
+    transform: translate(-150%, 300%);
+    -webkit-transform: translate(-150%, 300%);
 }
 
 .highlight:nth-child(4),
 .boardsquare:nth-child(4) {
     transform: translate(-50%, 350%);
-    -webkit-transform: translate(-50%, 350%);
+    -webkit-transform: translate(-50%, 300%);
 }
 
 .highlight:nth-child(5),
 .boardsquare:nth-child(5) {
-    transform: translate(50%, 350%);
-    -webkit-transform: translate(50%, 350%);
+    transform: translate(50%, 300%);
+    -webkit-transform: translate(50%, 300%);
 }
 
 .highlight:nth-child(7),
 .boardsquare:nth-child(6) {
-    transform: translate(150%, 350%);
-    -webkit-transform: translate(150%, 350%);
+    transform: translate(150%, 300%);
+    -webkit-transform: translate(150%, 300%);
 }
 
 .highlight:nth-child(7),
 .boardsquare:nth-child(7) {
-    transform: translate(250%, 350%);
-    -webkit-transform: translate(250%, 350%);
+    transform: translate(250%, 300%);
+    -webkit-transform: translate(250%, 300%);
 }
 
 .highlight:nth-child(8),
 .boardsquare:nth-child(8) {
-    transform: translate(350%, 350%);
-    -webkit-transform: translate(350%, 350%);
+    transform: translate(350%, 300%);
+    -webkit-transform: translate(350%, 300%);
 }
 
 
