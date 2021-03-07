@@ -64,9 +64,17 @@ body {
     background-size: var(--chesspiece-size);
     background-position: center;
     background-clip: content-box;
-    border: 2vmin solid transparent;
     border-radius: 50%;
     transition: 0.2s;
+}
+
+.chesspiece {
+    border: 0.25vmin solid transparent;
+}
+
+.hsquare,
+.boardsquare {
+    border: 2vmin solid transparent;
 }
 
 /* */
