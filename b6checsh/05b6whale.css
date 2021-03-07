@@ -48,6 +48,11 @@ body {
     background-blend-mode: screen, luminosity;
 }
 
+.boardsquare,
+.chesspiece {
+    position: fixed;
+}
+
 /* */
 
 .whitepiece.rook {
