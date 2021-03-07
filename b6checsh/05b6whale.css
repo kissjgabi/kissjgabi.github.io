@@ -79,6 +79,9 @@ body {
 .boardsquare,
 .chesspiece {
     position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: var(--boardsquare-size);
     height: var(--boardsquare-size);
     text-align: center;
