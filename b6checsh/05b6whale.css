@@ -319,9 +319,6 @@ body {
 #whitepromotion,
 #blackpromotion {
     position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: gainsboro;
     height: calc(1.25 * var(--boardsquare-size));
     width: calc(4.25 * var(--boardsquare-size));
@@ -358,6 +355,8 @@ body {
     background-color: white;
     border-color: var(--highlight-color);
     cursor: pointer;
+
+    
 }/* */
 
 .white-rook-image,
