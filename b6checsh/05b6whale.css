@@ -192,6 +192,73 @@ body {
     color: white;
 }
 
+.hint {
+    position: fixed;
+    width: var(--chesspiece-size);
+    height: var(--chesspiece-size);
+    top: calc(var(--innerheight) / 2 - 0.5 * var(--chesspiece-size));
+    left: calc(var(--innerwidth) / 2 - 6.5 * var(--boardsquare-size));;
+    opacity: 0;
+}
+
+.hint:checked+label {
+    background-color: var(--highlight-color);
+    border: 0.5vmin solid lightgray;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 3px rgb(20, 32, 54);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.hint:not(checked)+label:active,
+.hint:checked+label:active {
+    border: 0.5vmin solid gray;
+    box-shadow: 0 0 1px 2px rgb(20, 32, 54);
+}
+
+.hint:not(checked)+label {
+    border: 0.5vmin solid darkgray;
+    border-radius: 50%;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.hint:checked~.playground .boardsquare.white::before {
+    content: "";
+    position: absolute;
+    width: var(--chesspiece-size);
+    height: var(--chesspiece-size);
+    border: 0.5vmin solid snow;
+    border-radius: 50%;
+}
+
+.hint:checked~.playground .boardsquare.black::before {
+    content: "";
+    position: absolute;
+    width: var(--chesspiece-size);
+    height: var(--chesspiece-size);
+    border: 0.5vmin solid darkslategray;
+    border-radius: 50%;
+}
+
+.hint:checked~.playground .boardsquare.blackwhite::before {
+    content: "";
+    position: absolute;
+    width: var(--chesspiece-size);
+    height: var(--chesspiece-size);
+    border: 0.5vmin solid snow;
+    border-radius: 50%;
+}
+
+.hint:checked~.playground .boardsquare.blackwhite::after {
+    content: "";
+    position: absolute;
+    width: var(--chesspiece-size);
+    height: var(--chesspiece-size);
+    border: 0.5vmin dashed darkslategray;
+    border-radius: 50%;
+}
+
 /* */
 
 .whitepiece.rook {
