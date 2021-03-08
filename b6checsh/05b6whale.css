@@ -322,7 +322,7 @@ body {
     display: initial;
     background-color: gainsboro;
     height: calc(1.25 * var(--boardsquare-size));
-    width: calc(5 * var(--boardsquare-size));
+    width: calc(6 * var(--boardsquare-size));
     text-align: center;
     border: 1px solid gray;
     transition: 0.5s;
@@ -331,12 +331,12 @@ body {
 
 #blackpromotion {
     bottom: calc(var(--innerheight) / 2 - 5 * var(--boardsquare-size));
-    left: calc(var(--innerwidth) / 2 - 2.5 * var(--boardsquare-size));
+    left: calc(var(--innerwidth) / 2 - 3 * var(--boardsquare-size));
 }
 
 #whitepromotion {
     top: calc(var(--innerheight) / 2 - 5 * var(--boardsquare-size));
-    left: calc(var(--innerwidth) / 2 - 2.5 * var(--boardsquare-size));
+    left: calc(var(--innerwidth) / 2 - 3 * var(--boardsquare-size));
 }
 
 .promotepiece {
