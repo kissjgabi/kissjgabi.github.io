@@ -169,6 +169,62 @@ body {
     z-index: 50;
 }
 
+.numkey {
+    position: fixed;
+    width: var(--chesspiece-size);
+    height: var(--chesspiece-size);
+    font-family: 'Courier Prime', monospace;
+    font-size: calc(8 * var(--half-size));
+    color: snow;
+    background-color: var(--highlight-color);
+    text-shadow: 2px 2px 6px indigo;
+    font-weight: 900;
+    border: 0.5vmin solid lightgray;
+    border-radius: calc(2 * var(--half-size));
+    opacity: 0.75;
+    box-shadow: 1px 1px 2px 3px rgb(20, 32, 54);
+}
+
+.numkeyactive,
+.numkey:active {
+    border: 0.5vmin solid gray;
+    box-shadow: 0 0 1px 2px rgb(20, 32, 54);
+}
+
+#openpng {
+    width: calc(7 * var(--chesspiece-size));
+    bottom: calc(var(--innerheight) / 2 - 5.875 * var(--boardsquare-size) - var(--chesspiece-size));
+    left:  50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    line-height: calc(0.4 * var(--chesspiece-size));
+    text-indent: -0.25em;
+    letter-spacing: -0.25em;
+    font-weight: 900;
+}
+
+#toggleplay {
+    height: calc(2.25 * var(--chesspiece-size));
+    bottom: calc(var(--innerheight) / 2 - 4.75 * var(--boardsquare-size));
+    right: calc(var(--innerwidth) / 2 - 6.5 * var(--boardsquare-size));
+    line-height: calc(0.4 * var(--chesspiece-size));
+    text-indent: -0.25em;
+    letter-spacing: -0.25em;
+    font-weight: 900;
+}
+
+#incresespeed {
+    height: calc(2.25 * var(--chesspiece-size));
+    bottom: calc(var(--innerheight) / 2 - 2.625 * var(--boardsquare-size));
+    right: calc(var(--innerwidth) / 2 - 6.5 * var(--boardsquare-size));
+}
+
+#decresespeed {
+    height: var(--chesspiece-size);
+    bottom: calc(var(--innerheight) / 2 - 0.5 * var(--boardsquare-size));
+    right: calc(var(--innerwidth) / 2 - 6.5 * var(--boardsquare-size));
+}
+
 .clock {
     position: fixed;
     display: none;
