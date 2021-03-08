@@ -315,20 +315,67 @@ body {
     border-radius: 50%;
 }
 
-/* */
 
+#whitepromotion,
+#blackpromotion {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    height: calc(1.25 * var(--boardsquare-size));
+    width: calc(4.25 * var(--boardsquare-size));
+    border: 1px solid gray;
+    transition: 0.5s;
+    z-index: 100;
+}
+
+#whitepromotion {
+    transform: translate(0, -350%);
+    -webkit-transform: translate(0, -350%);
+}
+
+#blackpromotion {
+    transform: translate(0, 350%);
+    -webkit-transform: translate(0, 350%);
+}
+
+.promotepiece {
+    position: relative;
+    width: var(--boardsquare-size);
+    height: var(--boardsquare-size);
+    background-repeat: no-repeat;
+    background-size: var(--chesspiece-size);
+    background-position: center;
+    background-clip: content-box;
+    border: 0.5vmin solid transparent;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.promotepiece:hover {
+    opacity: 1;
+    background-color: white;
+    border-color: var(--highlight-color);
+    cursor: pointer;
+}/* */
+
+.white-rook-image,
 .whitepiece.rook {
     background-image: var(--white-rook-image);
 }
 
+.white-knight-image,
 .whitepiece.knight {
     background-image: var(--white-knight-image);
 }
 
+.white-bishop-image,
 .whitepiece.bishop {
     background-image: var(--white-bishop-image);
 }
 
+.white-queen-image,
 .whitepiece.queen {
     background-image: var(--white-queen-image);
 }
@@ -341,18 +388,22 @@ body {
     background-image: var(--white-pawn-image);
 }
 
+.black-rook-image,
 .blackpiece.rook {
     background-image: var(--black-rook-image);
 }
 
+.black-knight-image,
 .blackpiece.knight {
     background-image: var(--black-knight-image);
 }
 
+.black-bishop-image,
 .blackpiece.bishop {
     background-image: var(--black-bishop-image);
 }
 
+.black-queen-image,
 .blackpiece.queen {
     background-image: var(--black-queen-image);
 }
