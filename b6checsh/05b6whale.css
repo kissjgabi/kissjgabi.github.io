@@ -322,7 +322,8 @@ body {
     display: initial;
     background-color: gainsboro;
     height: calc(1.25 * var(--boardsquare-size));
-    width: calc(4.25 * var(--boardsquare-size));
+    width: calc(4.5 * var(--boardsquare-size));
+    text-align: center;
     border: 1px solid gray;
     transition: 0.5s;
     z-index: 100;
@@ -330,19 +331,20 @@ body {
 
 #blackpromotion {
     bottom: calc(var(--innerheight) / 2 - 5 * var(--boardsquare-size));
-    left: calc(var(--innerwidth) / 2 - 2.125 * var(--boardsquare-size));
+    left: calc(var(--innerwidth) / 2 - 2.25 * var(--boardsquare-size));
 }
 
 #whitepromotion {
     top: calc(var(--innerheight) / 2 - 5 * var(--boardsquare-size));
-    left: calc(var(--innerwidth) / 2 - 2.125 * var(--boardsquare-size));
+    left: calc(var(--innerwidth) / 2 - 2.25 * var(--boardsquare-size));
 }
 
 .promotepiece {
     position: relative;
     display: inline-block;
+    margin: calc(0.125 * var(--boardsquare-size)) 0;
     width: var(--boardsquare-size);
-    height: calc(1.25 * var(--boardsquare-size));
+    height: var(--boardsquare-size);
     background-repeat: no-repeat;
     background-size: var(--chesspiece-size);
     background-position: center;
