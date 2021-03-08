@@ -148,14 +148,16 @@ body {
     overflow: visible;
 }
 
-#whiteclock {
-    bottom: calc(var(--innerheight) / 2 - 6.5 * var(--boardsquare-size));
-    color: white;
-}
-
 #blackclock {
     top: calc(var(--innerheight) / 2 - 6.5 * var(--boardsquare-size));
+    left: calc(var(--innerwidth) / 2 - 6.5 * var(--boardsquare-size));
     color: black;
+}
+
+#whiteclock {
+    bottom: calc(var(--innerheight) / 2 - 6.5 * var(--boardsquare-size));
+    right: calc(var(--innerwidth) / 2 - 6.5 * var(--boardsquare-size));
+    color: white;
 }
 
 /* */
