@@ -44,7 +44,7 @@
 }
 
 body {
-    height: 100vh;
+    height: var(--innerheight);
 }
 
 .chesstable,
@@ -53,6 +53,30 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.grandmaster {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(5 * var(--half-size));
+    font-weight: 500;
+    font-style: italic;
+    background-color: transparent;
+    text-shadow: 0 0 5px white, 0 0 2px black;
+    z-index: 60;
+}
+
+#blackside {
+    position: fixed;
+    top: calc(var(--innerheight) / 2 - 5.5 * var(--boardsquare-size));
+    left: calc(var(--innerwidth) / 2 - 6.5 * var(--boardsquare-size));
+    color: black;
+}
+
+#whiteside {
+    position: fixed;
+    bottom: calc(var(--innerheight) / 2 - 5.5 * var(--boardsquare-size));
+    right: calc(var(--innerwidth) / 2 - 6.5 * var(--boardsquare-size));
+    color: white;
 }
 
 .chesstable {
