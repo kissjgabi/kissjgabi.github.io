@@ -162,22 +162,30 @@ body {
     opacity: 1;
 }
 
+.header {
+    position: fixed;
+    font-family: 'Courier Prime', monospace;
+    font-size: calc(8 * var(--half-size));
+    z-index: 50;
+}
+
 .clock {
     position: fixed;
-    display: initial;
+    display: none;
     height: calc(3 * var(--chesspiece-size) / 4);
     font-family: 'Courier Prime', monospace;
     font-size: calc(3 * var(--chesspiece-size) / 4);
     z-index: 50;
-    overflow: visible;
 }
 
+#pgnevent,
 #blackclock {
     top: calc(var(--innerheight) / 2 - 6.5 * var(--boardsquare-size));
     left: calc(var(--innerwidth) / 2 - 6.5 * var(--boardsquare-size));
     color: black;
 }
 
+#pgndate,
 #whiteclock {
     bottom: calc(var(--innerheight) / 2 - 6.5 * var(--boardsquare-size));
     right: calc(var(--innerwidth) / 2 - 6.5 * var(--boardsquare-size));
