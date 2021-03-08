@@ -194,7 +194,7 @@ body {
 #openpng {
     width: calc(7 * var(--chesspiece-size));
     bottom: calc(var(--innerheight) / 2 - 5.875 * var(--boardsquare-size) - var(--chesspiece-size));
-    left:  50%;
+    left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     line-height: calc(0.4 * var(--chesspiece-size));
@@ -253,7 +253,7 @@ body {
     width: var(--chesspiece-size);
     height: var(--chesspiece-size);
     top: calc(var(--innerheight) / 2 - 0.5 * var(--chesspiece-size));
-    left: calc(var(--innerwidth) / 2 - 6.5 * var(--boardsquare-size));;
+    left: calc(var(--innerwidth) / 2 - 6.5 * var(--boardsquare-size));
     opacity: 0;
 }
 
@@ -319,6 +319,7 @@ body {
 #whitepromotion,
 #blackpromotion {
     position: fixed;
+    display: initial;
     background-color: gainsboro;
     height: calc(1.25 * var(--boardsquare-size));
     width: calc(4.25 * var(--boardsquare-size));
@@ -327,20 +328,21 @@ body {
     z-index: 100;
 }
 
-#whitepromotion {
-    transform: translate(0, -350%);
-    -webkit-transform: translate(0, -350%);
+#blackpromotion {
+    bottom: calc(var(--innerheight) / 2 - 5 * var(--boardsquare-size));
+    left: calc(var(--innerwidth) / 2 - 2.125 * var(--boardsquare-size));
 }
 
-#blackpromotion {
-    transform: translate(0, 350%);
-    -webkit-transform: translate(0, 350%);
+#whitepromotion {
+    top: calc(var(--innerheight) / 2 - 5 * var(--boardsquare-size));
+    left: calc(var(--innerwidth) / 2 - 2.125 * var(--boardsquare-size));
 }
 
 .promotepiece {
     position: relative;
+    display: inline-block;
     width: var(--boardsquare-size);
-    height: var(--boardsquare-size);
+    height: calc(1.25 * var(--boardsquare-size));
     background-repeat: no-repeat;
     background-size: var(--chesspiece-size);
     background-position: center;
@@ -356,8 +358,10 @@ body {
     border-color: var(--highlight-color);
     cursor: pointer;
 
-    
-}/* */
+
+}
+
+/* */
 
 .white-rook-image,
 .whitepiece.rook {
