@@ -1,1 +1,0 @@
-SDL_Surface* loadMedia();
